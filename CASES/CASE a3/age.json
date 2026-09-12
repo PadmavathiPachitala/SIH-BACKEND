@@ -1,0 +1,11 @@
+{
+  "age_hours_range": [
+    66.0,
+    72.0
+  ],
+  "median_age_hours": 69.0,
+  "confidence": "low",
+  "compactness": 0.0295,
+  "slick_orientation_deg": 117.34,
+  "notes": "[WARNING] Wind processing failed: 'u10' Wind data unavailable - confidence reduced."
+}

@@ -1,0 +1,73 @@
+{
+  "case_id": "CASE a1",
+  "data_source": "synthetic_demo_ais",
+  "spill_area_km2": 140.9696,
+  "estimated_origin": {
+    "lat": 10.552083,
+    "lon": 76.056715
+  },
+  "release_time_estimate": "2026-07-08T00:48:00Z",
+  "detection_time": "2026-07-10T00:48:00Z",
+  "ranked_suspects": [
+    {
+      "mmsi": 419001001,
+      "name": "DESERT STAR",
+      "ship_type": "Oil Tanker",
+      "final_score": 0.8958,
+      "proximity_score": 0.938,
+      "time_score": 0.9592,
+      "speed_score": 0.7891,
+      "dwell_score": 0.7788,
+      "type_score": 1.0,
+      "metrics": {
+        "closest_distance_km": 3.1,
+        "time_offset_hours": 0.25,
+        "vessel_speed_mps": 1.05,
+        "hindcast_speed_mps": 0.0,
+        "dwell_minutes": 405.0
+      },
+      "justification": "Proximity 3.1 km at t+0.2 h | Speed match 1.1 m/s | Dwell 15 min after | Type = tanker",
+      "rank": 1
+    },
+    {
+      "mmsi": 419001002,
+      "name": "ARABIAN PEARL",
+      "ship_type": "Product Tanker",
+      "final_score": 0.8294,
+      "proximity_score": 0.8324,
+      "time_score": 0.9592,
+      "speed_score": 0.6152,
+      "dwell_score": 0.7788,
+      "type_score": 1.0,
+      "metrics": {
+        "closest_distance_km": 8.38,
+        "time_offset_hours": 0.25,
+        "vessel_speed_mps": 1.92,
+        "hindcast_speed_mps": 0.0,
+        "dwell_minutes": 210.0
+      },
+      "justification": "Proximity 8.4 km at t+0.2 h | Speed match 1.9 m/s | Dwell 15 min after | Type = tanker",
+      "rank": 2
+    },
+    {
+      "mmsi": 419001007,
+      "name": "MARITIMA ONE",
+      "ship_type": "Oil Tanker",
+      "final_score": 0.8228,
+      "proximity_score": 0.8888,
+      "time_score": 0.92,
+      "speed_score": 0.6759,
+      "dwell_score": 0.6065,
+      "type_score": 1.0,
+      "metrics": {
+        "closest_distance_km": 5.56,
+        "time_offset_hours": -0.5,
+        "vessel_speed_mps": 1.62,
+        "hindcast_speed_mps": 0.0,
+        "dwell_minutes": 270.0
+      },
+      "justification": "Proximity 5.6 km at t-0.5 h | Speed match 1.6 m/s | Dwell 30 min before | Type = tanker",
+      "rank": 3
+    }
+  ]
+}

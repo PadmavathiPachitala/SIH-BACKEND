@@ -1,0 +1,73 @@
+{
+  "case_id": "case 4a",
+  "data_source": "synthetic_demo_ais",
+  "spill_area_km2": 539.145,
+  "estimated_origin": {
+    "lat": 13.972263,
+    "lon": 74.683666
+  },
+  "release_time_estimate": "2026-07-09T00:48:00Z",
+  "detection_time": "2026-07-10T00:48:00Z",
+  "ranked_suspects": [
+    {
+      "mmsi": 419002001,
+      "name": "SEA CHAMPION",
+      "ship_type": "Oil Tanker",
+      "final_score": 0.9484,
+      "proximity_score": 0.943,
+      "time_score": 1.0,
+      "speed_score": 0.8277,
+      "dwell_score": 1.0,
+      "type_score": 1.0,
+      "metrics": {
+        "closest_distance_km": 2.85,
+        "time_offset_hours": 0.0,
+        "vessel_speed_mps": 0.94,
+        "hindcast_speed_mps": 0.08,
+        "dwell_minutes": 375.0
+      },
+      "justification": "Proximity 2.9 km at t+0.0 h | Speed match 0.9 m/s | Dwell 0 min before | Type = tanker",
+      "rank": 1
+    },
+    {
+      "mmsi": 419002002,
+      "name": "INDUS GLORY",
+      "ship_type": "Product Tanker",
+      "final_score": 0.8914,
+      "proximity_score": 0.8442,
+      "time_score": 1.0,
+      "speed_score": 0.6909,
+      "dwell_score": 1.0,
+      "type_score": 1.0,
+      "metrics": {
+        "closest_distance_km": 7.79,
+        "time_offset_hours": 0.0,
+        "vessel_speed_mps": 1.63,
+        "hindcast_speed_mps": 0.08,
+        "dwell_minutes": 255.0
+      },
+      "justification": "Proximity 7.8 km at t+0.0 h | Speed match 1.5 m/s | Dwell 0 min before | Type = tanker",
+      "rank": 2
+    },
+    {
+      "mmsi": 419002007,
+      "name": "PETRO CHEVRON",
+      "ship_type": "Oil Tanker",
+      "final_score": 0.8086,
+      "proximity_score": 0.9094,
+      "time_score": 0.8825,
+      "speed_score": 0.7217,
+      "dwell_score": 0.4724,
+      "type_score": 1.0,
+      "metrics": {
+        "closest_distance_km": 4.53,
+        "time_offset_hours": -0.75,
+        "vessel_speed_mps": 1.47,
+        "hindcast_speed_mps": 0.08,
+        "dwell_minutes": 315.0
+      },
+      "justification": "Proximity 4.5 km at t-0.8 h | Speed match 1.4 m/s | Dwell 45 min before | Type = tanker",
+      "rank": 3
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.042339,
+          6.993902
+        ]
+      },
+      "properties": {
+        "name": "Detection Point (CASE a3)",
+        "type": "detection_point"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.877641,
+          6.907217
+        ]
+      },
+      "properties": {
+        "name": "Estimated Origin (24h)",
+        "duration_hours": 24,
+        "confidence": 0.9906,
+        "particle_std_km": 0.234,
+        "type": "estimated_origin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.739974,
+          6.745126
+        ]
+      },
+      "properties": {
+        "name": "Estimated Origin (48h)",
+        "duration_hours": 48,
+        "confidence": 0.9687,
+        "particle_std_km": 0.7813,
+        "type": "estimated_origin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.565812,
+          6.578396
+        ]
+      },
+      "properties": {
+        "name": "Estimated Origin (72h)",
+        "duration_hours": 72,
+        "confidence": 0.962,
+        "particle_std_km": 0.9499,
+        "type": "estimated_origin"
+      }
+    }
+  ]
+}

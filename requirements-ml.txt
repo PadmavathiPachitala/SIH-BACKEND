@@ -1,0 +1,11 @@
+# Full ML Pipeline and Model Training Dependencies
+torch
+torchvision
+timm
+scikit-learn
+pillow
+tqdm
+matplotlib
+numpy
+segmentation-models-pytorch
+opencv-python-headless

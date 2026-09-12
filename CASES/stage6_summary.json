@@ -1,0 +1,50 @@
+[
+  {
+    "case_id": "CASE a1",
+    "n_all": 8,
+    "n_filtered": 3,
+    "closest_pass_km": 3.1,
+    "closest_tanker_distance_km": 3.1,
+    "top_3_filtered_names": [
+      "DESERT STAR",
+      "ARABIAN PEARL",
+      "MARITIMA ONE"
+    ]
+  },
+  {
+    "case_id": "CASE a2",
+    "n_all": 8,
+    "n_filtered": 3,
+    "closest_pass_km": 2.85,
+    "closest_tanker_distance_km": 2.85,
+    "top_3_filtered_names": [
+      "SEA CHAMPION",
+      "INDUS GLORY",
+      "PETRO CHEVRON"
+    ]
+  },
+  {
+    "case_id": "CASE a3",
+    "n_all": 8,
+    "n_filtered": 3,
+    "closest_pass_km": 2.85,
+    "closest_tanker_distance_km": 2.85,
+    "top_3_filtered_names": [
+      "SEA CHAMPION",
+      "INDUS GLORY",
+      "PETRO CHEVRON"
+    ]
+  },
+  {
+    "case_id": "case 4a",
+    "n_all": 8,
+    "n_filtered": 3,
+    "closest_pass_km": 2.85,
+    "closest_tanker_distance_km": 2.85,
+    "top_3_filtered_names": [
+      "SEA CHAMPION",
+      "INDUS GLORY",
+      "PETRO CHEVRON"
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "age_hours_range": [
+    124.02,
+    72.0
+  ],
+  "median_age_hours": 98.01,
+  "confidence": "low",
+  "compactness": 0.0144,
+  "slick_orientation_deg": 162.56,
+  "notes": "Wind data not supplied. Wind data unavailable - confidence reduced."
+}

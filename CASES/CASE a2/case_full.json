@@ -1,0 +1,349 @@
+{
+  "case_id": "CASE a2",
+  "status": "characterised",
+  "title": "Oil Spill Case - CASE a2",
+  "detection": {
+    "lat": 8.293506,
+    "lon": 73.052474,
+    "centroid_lat": 8.293506,
+    "centroid_lon": 73.052474,
+    "area_km2": 25.6348,
+    "perimeter_km": 52.6683,
+    "major_axis_km": 7.559,
+    "minor_axis_km": 5.8526,
+    "orientation_deg": 54.62,
+    "area_pixels": 260730,
+    "detection_time": "2026-08-14T00:57:00Z",
+    "time": "2026-08-14T00:57:00Z",
+    "bbox_latlon": [
+      73.010015,
+      8.265874,
+      73.081072,
+      8.327767
+    ],
+    "crs": "EPSG:4326",
+    "mask_path": "cases/CASE a2/S1C_IW_GRDH_1SDV_20260814T005706_20260814T005735_008984_011D47_A1F0_Cal_Spk_TC_dB_filtered_mask.tif"
+  },
+  "hindcast": {
+    "case_id": "CASE a2",
+    "detection_point": {
+      "lat": 8.293506,
+      "lon": 73.052474
+    },
+    "detection_time": "2026-08-14T00:57:00Z",
+    "settings": {
+      "time_step_hours": 6,
+      "wind_drift_factor": 0.0
+    },
+    "simulations": [
+      {
+        "duration_hours": 24,
+        "origin": {
+          "lat": 8.40154,
+          "lon": 73.006061
+        },
+        "confidence": 0.9801,
+        "particle_std_km": 0.4963,
+        "trajectory": [
+          {
+            "lat": 8.293506,
+            "lon": 73.052474,
+            "hours_back": 0
+          },
+          {
+            "lat": 8.323647,
+            "lon": 73.039641,
+            "hours_back": 6
+          },
+          {
+            "lat": 8.351387,
+            "lon": 73.027902,
+            "hours_back": 12
+          },
+          {
+            "lat": 8.376504,
+            "lon": 73.016823,
+            "hours_back": 18
+          },
+          {
+            "lat": 8.40154,
+            "lon": 73.006061,
+            "hours_back": 24
+          }
+        ]
+      },
+      {
+        "duration_hours": 48,
+        "origin": {
+          "lat": 8.502032,
+          "lon": 72.968921
+        },
+        "confidence": 0.9793,
+        "particle_std_km": 0.5174,
+        "trajectory": [
+          {
+            "lat": 8.293506,
+            "lon": 73.052474,
+            "hours_back": 0
+          },
+          {
+            "lat": 8.323647,
+            "lon": 73.039641,
+            "hours_back": 6
+          },
+          {
+            "lat": 8.351387,
+            "lon": 73.027902,
+            "hours_back": 12
+          },
+          {
+            "lat": 8.376504,
+            "lon": 73.016823,
+            "hours_back": 18
+          },
+          {
+            "lat": 8.40154,
+            "lon": 73.006061,
+            "hours_back": 24
+          },
+          {
+            "lat": 8.42654,
+            "lon": 72.995434,
+            "hours_back": 30
+          },
+          {
+            "lat": 8.451541,
+            "lon": 72.984808,
+            "hours_back": 36
+          },
+          {
+            "lat": 8.476645,
+            "lon": 72.975311,
+            "hours_back": 42
+          },
+          {
+            "lat": 8.502032,
+            "lon": 72.968921,
+            "hours_back": 48
+          }
+        ]
+      },
+      {
+        "duration_hours": 72,
+        "origin": {
+          "lat": 8.601782,
+          "lon": 72.947786
+        },
+        "confidence": 0.9778,
+        "particle_std_km": 0.5538,
+        "trajectory": [
+          {
+            "lat": 8.293506,
+            "lon": 73.052474,
+            "hours_back": 0
+          },
+          {
+            "lat": 8.323647,
+            "lon": 73.039641,
+            "hours_back": 6
+          },
+          {
+            "lat": 8.351387,
+            "lon": 73.027902,
+            "hours_back": 12
+          },
+          {
+            "lat": 8.376504,
+            "lon": 73.016823,
+            "hours_back": 18
+          },
+          {
+            "lat": 8.40154,
+            "lon": 73.006061,
+            "hours_back": 24
+          },
+          {
+            "lat": 8.42654,
+            "lon": 72.995434,
+            "hours_back": 30
+          },
+          {
+            "lat": 8.451541,
+            "lon": 72.984808,
+            "hours_back": 36
+          },
+          {
+            "lat": 8.476645,
+            "lon": 72.975311,
+            "hours_back": 42
+          },
+          {
+            "lat": 8.502032,
+            "lon": 72.968921,
+            "hours_back": 48
+          },
+          {
+            "lat": 8.527419,
+            "lon": 72.96253,
+            "hours_back": 54
+          },
+          {
+            "lat": 8.552645,
+            "lon": 72.956236,
+            "hours_back": 60
+          },
+          {
+            "lat": 8.577289,
+            "lon": 72.95182,
+            "hours_back": 66
+          },
+          {
+            "lat": 8.601782,
+            "lon": 72.947786,
+            "hours_back": 72
+          }
+        ]
+      }
+    ],
+    "best_estimate": {
+      "duration_hours": 24,
+      "origin": {
+        "lat": 8.40154,
+        "lon": 73.006061
+      },
+      "confidence": 0.9801
+    }
+  },
+  "suspects": [
+    {
+      "mmsi": 419002001,
+      "name": "SEA CHAMPION",
+      "ship_type": "Oil Tanker",
+      "pipeline_score": 0.9513,
+      "final_score": 0.9513,
+      "proximity_score": 0.943,
+      "time_score": 1.0,
+      "path_score": 1.0,
+      "speed_score": 0.8419,
+      "dwell_score": 1.0,
+      "type_score": 1.0,
+      "ship_type_score": 1.0,
+      "distance_km": 2.85,
+      "closest_distance_km": 2.85,
+      "dwell_minutes": 375.0,
+      "min_dwell_min": 375.0,
+      "speed_kn": 1.83,
+      "vessel_speed_kn": 1.83,
+      "vessel_speed_mps": 0.94,
+      "time_offset_hours": 0.0,
+      "justification": "Proximity 2.9 km at t+0.0 h | Speed match 0.8 m/s | Dwell 0 min before | Type = tanker",
+      "metrics": {
+        "closest_distance_km": 2.85,
+        "dwell_minutes": 375.0,
+        "vessel_speed_kn": 1.83,
+        "vessel_speed_mps": 0.94,
+        "time_offset_hours": 0.0
+      },
+      "rank": 1
+    },
+    {
+      "mmsi": 419002002,
+      "name": "INDUS GLORY",
+      "ship_type": "Product Tanker",
+      "pipeline_score": 0.8943,
+      "final_score": 0.8943,
+      "proximity_score": 0.8442,
+      "time_score": 1.0,
+      "path_score": 1.0,
+      "speed_score": 0.7051,
+      "dwell_score": 1.0,
+      "type_score": 1.0,
+      "ship_type_score": 1.0,
+      "distance_km": 7.79,
+      "closest_distance_km": 7.79,
+      "dwell_minutes": 255.0,
+      "min_dwell_min": 255.0,
+      "speed_kn": 3.17,
+      "vessel_speed_kn": 3.17,
+      "vessel_speed_mps": 1.63,
+      "time_offset_hours": 0.0,
+      "justification": "Proximity 7.8 km at t+0.0 h | Speed match 1.5 m/s | Dwell 0 min before | Type = tanker",
+      "metrics": {
+        "closest_distance_km": 7.79,
+        "dwell_minutes": 255.0,
+        "vessel_speed_kn": 3.17,
+        "vessel_speed_mps": 1.63,
+        "time_offset_hours": 0.0
+      },
+      "rank": 2
+    },
+    {
+      "mmsi": 419002007,
+      "name": "PETRO CHEVRON",
+      "ship_type": "Oil Tanker",
+      "pipeline_score": 0.8115,
+      "final_score": 0.8115,
+      "proximity_score": 0.9094,
+      "time_score": 0.8825,
+      "path_score": 0.8825,
+      "speed_score": 0.7359,
+      "dwell_score": 0.4724,
+      "type_score": 1.0,
+      "ship_type_score": 1.0,
+      "distance_km": 4.53,
+      "closest_distance_km": 4.53,
+      "dwell_minutes": 315.0,
+      "min_dwell_min": 315.0,
+      "speed_kn": 2.86,
+      "vessel_speed_kn": 2.86,
+      "vessel_speed_mps": 1.47,
+      "time_offset_hours": -0.75,
+      "justification": "Proximity 4.5 km at t-0.8 h | Speed match 1.3 m/s | Dwell 45 min before | Type = tanker",
+      "metrics": {
+        "closest_distance_km": 4.53,
+        "dwell_minutes": 315.0,
+        "vessel_speed_kn": 2.86,
+        "vessel_speed_mps": 1.47,
+        "time_offset_hours": -0.75
+      },
+      "rank": 3
+    }
+  ],
+  "map": {
+    "center": [
+      8.293506,
+      73.052474
+    ],
+    "zoom": 10,
+    "bounds": [
+      73.010015,
+      8.265874,
+      73.081072,
+      8.327767
+    ],
+    "spill_centroid": [
+      8.293506,
+      73.052474
+    ]
+  },
+  "filter_defaults": {
+    "max_distance_km": 30,
+    "min_dwell_min": 0,
+    "max_speed_kn": 8,
+    "ship_types": [
+      "Tanker",
+      "Cargo",
+      "Passenger",
+      "Other"
+    ],
+    "time_band": "around",
+    "top_n": 10,
+    "weights": {
+      "proximity": 0.3,
+      "dwell": 0.25,
+      "speed": 0.2,
+      "path": 0.15,
+      "ship_type": 0.1
+    }
+  }
+}

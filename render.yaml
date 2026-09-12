@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: sih-backend
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python app.py"
+    plan: free
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.12

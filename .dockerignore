@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.git/
+.gitignore
+.vscode/
+.idea/
+*.log
+
+pipeline_runs/
+inference_outputs/
+outputs/
+my_dashboard_data/

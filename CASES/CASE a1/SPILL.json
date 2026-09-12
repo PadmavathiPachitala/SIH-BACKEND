@@ -1,0 +1,27 @@
+{
+  "case_id": "CASE a1",
+  "mask_path": "cases/CASE a1/S1D_IW_GRDH_1SDV_20260710T004826_20260710T004843_003604_00669E_0C75_Cal_Spk_TC_dB_filtered_mask.tif",
+  "status": "characterised",
+  "area_pixels": 1442959,
+  "area_km2": 140.9696,
+  "centroid_lat": 10.551485,
+  "centroid_lon": 76.056723,
+  "perimeter_km": 350.7995,
+  "orientation_deg": 162.56,
+  "major_axis_km": 29.1176,
+  "minor_axis_km": 14.2622,
+  "bbox_pixels": [
+    4663,
+    25860,
+    7509,
+    27688
+  ],
+  "bbox_latlon": [
+    75.964524,
+    10.412779,
+    76.128736,
+    10.66844
+  ],
+  "crs": "EPSG:4326",
+  "notes": "Stage 3 from filtered U-Net mask"
+}

@@ -1,0 +1,118 @@
+{
+  "case_id": "CASE a1",
+  "status": "characterised",
+  "title": "Oil Spill Case - CASE a1",
+  "detection": {
+    "lat": 18.9182,
+    "lon": 72.7845,
+    "centroid_lat": 18.9182,
+    "centroid_lon": 72.7845,
+    "area_km2": 18.45,
+    "perimeter_km": 42.15,
+    "major_axis_km": 6.25,
+    "minor_axis_km": 4.10,
+    "orientation_deg": 38.4,
+    "detection_time": "2026-09-11T14:30:00Z",
+    "time": "2026-09-11T14:30:00Z",
+    "crs": "EPSG:4326"
+  },
+  "hindcast": {
+    "case_id": "CASE a1",
+    "detection_point": {
+      "lat": 18.9182,
+      "lon": 72.7845
+    },
+    "detection_time": "2026-09-11T14:30:00Z",
+    "simulations": [
+      {
+        "duration_hours": 24,
+        "origin": {
+          "lat": 18.8350,
+          "lon": 72.6920
+        },
+        "confidence": 0.985,
+        "trajectory": [
+          { "lat": 18.8350, "lon": 72.6920, "hours_back": 24 },
+          { "lat": 18.8520, "lon": 72.7100, "hours_back": 18 },
+          { "lat": 18.8750, "lon": 72.7350, "hours_back": 12 },
+          { "lat": 18.8980, "lon": 72.7600, "hours_back": 6 },
+          { "lat": 18.9182, "lon": 72.7845, "hours_back": 0 }
+        ]
+      }
+    ],
+    "best_estimate": {
+      "duration_hours": 24,
+      "origin": {
+        "lat": 18.8350,
+        "lon": 72.6920
+      },
+      "confidence": 0.985
+    }
+  },
+  "suspects": [
+    {
+      "mmsi": 413298110,
+      "name": "MT ARABIAN PEARL",
+      "ship_type": "Oil / Chemical Tanker",
+      "type": "Oil / Chemical Tanker",
+      "pipeline_score": 0.942,
+      "final_score": 0.942,
+      "score": 94.2,
+      "distance_km": 0.38,
+      "closest_distance_km": 0.38,
+      "dwell_minutes": 42.0,
+      "dwell_time_mins": 42,
+      "speed_kn": 9.8,
+      "avg_speed_knots": 9.8,
+      "vessel_speed_kn": 9.8,
+      "time_offset_hours": -0.2,
+      "justification": "Direct trajectory intersection at release origin window (02:10 UTC). Speed drop to 9.8 kn matched.",
+      "flag": "Panama",
+      "length_m": 245,
+      "width_m": 42,
+      "rank": 1,
+      "track": [
+        { "lat": 18.7800, "lon": 72.6400, "timestamp": "2026-09-11T01:00:00Z", "speed": 13.5 },
+        { "lat": 18.8330, "lon": 72.6900, "timestamp": "2026-09-11T02:10:00Z", "speed": 9.8 },
+        { "lat": 18.8950, "lon": 72.7500, "timestamp": "2026-09-11T03:20:00Z", "speed": 12.0 }
+      ]
+    },
+    {
+      "mmsi": 352994000,
+      "name": "MARINER EMPRESS",
+      "ship_type": "Bulk Carrier",
+      "type": "Bulk Carrier",
+      "pipeline_score": 0.785,
+      "final_score": 0.785,
+      "score": 78.5,
+      "distance_km": 1.82,
+      "closest_distance_km": 1.82,
+      "dwell_minutes": 15.0,
+      "dwell_time_mins": 15,
+      "speed_kn": 14.1,
+      "avg_speed_knots": 14.1,
+      "vessel_speed_kn": 14.1,
+      "time_offset_hours": -0.5,
+      "justification": "Passed within 1.8km of hindcast origin 20 minutes prior to release estimation window.",
+      "flag": "Liberia",
+      "length_m": 190,
+      "width_m": 32,
+      "rank": 2,
+      "track": [
+        { "lat": 18.7600, "lon": 72.6100, "timestamp": "2026-09-11T01:10:00Z", "speed": 14.5 },
+        { "lat": 18.8200, "lon": 72.6780, "timestamp": "2026-09-11T01:55:00Z", "speed": 14.1 },
+        { "lat": 18.8800, "lon": 72.7400, "timestamp": "2026-09-11T02:40:00Z", "speed": 14.2 }
+      ]
+    }
+  ],
+  "map": {
+    "center": [18.8800, 72.7400],
+    "zoom": 11
+  },
+  "filter_defaults": {
+    "max_distance_km": 15,
+    "min_dwell_mins": 0,
+    "max_speed_knots": 30,
+    "top_n": 10
+  }
+}

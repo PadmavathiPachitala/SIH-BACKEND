@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large Datasets and Raw GeoTIFFs (exceeds GitHub 100MB limit)
+data/
+DATASETS/
+inference_outputs/
+outputs/
+pipeline_runs/
+*.tif
+*.tiff
+*.nc
+*.pt
+*.pth
+*.h5
+*.zip
+*.tar
+*.gz
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE and Editor Files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Temporary / Local Utilities
+checkpoints/
+wandb/
+powershell.cmd
+.env

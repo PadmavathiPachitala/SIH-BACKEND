@@ -1,0 +1,190 @@
+{
+  "case_id": "CASE a3",
+  "detection_point": {
+    "lat": 6.993902,
+    "lon": 73.042339
+  },
+  "detection_time": "2026-07-10T00:48:00Z",
+  "settings": {
+    "time_step_hours": 6,
+    "wind_drift_factor": 0.0
+  },
+  "simulations": [
+    {
+      "duration_hours": 24,
+      "origin": {
+        "lat": 6.907217,
+        "lon": 72.877641
+      },
+      "confidence": 0.9906,
+      "particle_std_km": 0.234,
+      "trajectory": [
+        {
+          "lat": 6.993902,
+          "lon": 73.042339,
+          "hours_back": 0
+        },
+        {
+          "lat": 6.971533,
+          "lon": 72.9976,
+          "hours_back": 6
+        },
+        {
+          "lat": 6.947263,
+          "lon": 72.956544,
+          "hours_back": 12
+        },
+        {
+          "lat": 6.926391,
+          "lon": 72.916772,
+          "hours_back": 18
+        },
+        {
+          "lat": 6.907217,
+          "lon": 72.877641,
+          "hours_back": 24
+        }
+      ]
+    },
+    {
+      "duration_hours": 48,
+      "origin": {
+        "lat": 6.745126,
+        "lon": 72.739974
+      },
+      "confidence": 0.9687,
+      "particle_std_km": 0.7813,
+      "trajectory": [
+        {
+          "lat": 6.993902,
+          "lon": 73.042339,
+          "hours_back": 0
+        },
+        {
+          "lat": 6.971533,
+          "lon": 72.9976,
+          "hours_back": 6
+        },
+        {
+          "lat": 6.947263,
+          "lon": 72.956544,
+          "hours_back": 12
+        },
+        {
+          "lat": 6.926391,
+          "lon": 72.916772,
+          "hours_back": 18
+        },
+        {
+          "lat": 6.907217,
+          "lon": 72.877641,
+          "hours_back": 24
+        },
+        {
+          "lat": 6.88513,
+          "lon": 72.839198,
+          "hours_back": 30
+        },
+        {
+          "lat": 6.836818,
+          "lon": 72.806942,
+          "hours_back": 36
+        },
+        {
+          "lat": 6.788506,
+          "lon": 72.774687,
+          "hours_back": 42
+        },
+        {
+          "lat": 6.745126,
+          "lon": 72.739974,
+          "hours_back": 48
+        }
+      ]
+    },
+    {
+      "duration_hours": 72,
+      "origin": {
+        "lat": 6.578396,
+        "lon": 72.565812
+      },
+      "confidence": 0.962,
+      "particle_std_km": 0.9499,
+      "trajectory": [
+        {
+          "lat": 6.993902,
+          "lon": 73.042339,
+          "hours_back": 0
+        },
+        {
+          "lat": 6.971533,
+          "lon": 72.9976,
+          "hours_back": 6
+        },
+        {
+          "lat": 6.947263,
+          "lon": 72.956544,
+          "hours_back": 12
+        },
+        {
+          "lat": 6.926391,
+          "lon": 72.916772,
+          "hours_back": 18
+        },
+        {
+          "lat": 6.907217,
+          "lon": 72.877641,
+          "hours_back": 24
+        },
+        {
+          "lat": 6.88513,
+          "lon": 72.839198,
+          "hours_back": 30
+        },
+        {
+          "lat": 6.836818,
+          "lon": 72.806942,
+          "hours_back": 36
+        },
+        {
+          "lat": 6.788506,
+          "lon": 72.774687,
+          "hours_back": 42
+        },
+        {
+          "lat": 6.745126,
+          "lon": 72.739974,
+          "hours_back": 48
+        },
+        {
+          "lat": 6.701747,
+          "lon": 72.705261,
+          "hours_back": 54
+        },
+        {
+          "lat": 6.657139,
+          "lon": 72.659685,
+          "hours_back": 60
+        },
+        {
+          "lat": 6.612445,
+          "lon": 72.613333,
+          "hours_back": 66
+        },
+        {
+          "lat": 6.578396,
+          "lon": 72.565812,
+          "hours_back": 72
+        }
+      ]
+    }
+  ],
+  "best_estimate": {
+    "duration_hours": 24,
+    "origin": {
+      "lat": 6.907217,
+      "lon": 72.877641
+    },
+    "confidence": 0.9906
+  }
+}

@@ -1,0 +1,4 @@
+# SIH26143 Arabian Sea Oil Spill Detection & Attribution Dashboard
+# Core dashboard (app.py) runs on pure Python 3 standard library.
+numpy>=1.22.0
+pillow>=9.0.0

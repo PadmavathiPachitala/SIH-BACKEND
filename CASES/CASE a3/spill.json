@@ -1,0 +1,27 @@
+{
+  "case_id": "CASE a3",
+  "mask_path": "cases/CASE a3/filtered_mask.tif",
+  "status": "characterised",
+  "area_pixels": 5944120,
+  "area_km2": 586.1558,
+  "centroid_lat": 6.993902,
+  "centroid_lon": 73.042339,
+  "perimeter_km": 499.5706,
+  "orientation_deg": 117.34,
+  "major_axis_km": 15.2577,
+  "minor_axis_km": 8.9851,
+  "bbox_pixels": [
+    5732,
+    19942,
+    24365,
+    24703
+  ],
+  "bbox_latlon": [
+    72.809189,
+    6.653909,
+    73.236877,
+    8.32774
+  ],
+  "crs": "EPSG:4326",
+  "notes": "Stage 3 from filtered U-Net mask"
+}

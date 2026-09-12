@@ -1,0 +1,294 @@
+[
+  {
+    "case_id": "CASE a1",
+    "data_source": "synthetic_demo_ais",
+    "spill_area_km2": 140.9696,
+    "estimated_origin": {
+      "lat": 10.552083,
+      "lon": 76.056715
+    },
+    "release_time_estimate": "2026-07-08T00:48:00Z",
+    "detection_time": "2026-07-10T00:48:00Z",
+    "ranked_suspects": [
+      {
+        "mmsi": 419001001,
+        "name": "DESERT STAR",
+        "ship_type": "Oil Tanker",
+        "final_score": 0.8958,
+        "proximity_score": 0.938,
+        "time_score": 0.9592,
+        "speed_score": 0.7891,
+        "dwell_score": 0.7788,
+        "type_score": 1.0,
+        "metrics": {
+          "closest_distance_km": 3.1,
+          "time_offset_hours": 0.25,
+          "vessel_speed_mps": 1.05,
+          "hindcast_speed_mps": 0.0,
+          "dwell_minutes": 405.0
+        },
+        "justification": "Proximity 3.1 km at t+0.2 h | Speed match 1.1 m/s | Dwell 15 min after | Type = tanker",
+        "rank": 1
+      },
+      {
+        "mmsi": 419001002,
+        "name": "ARABIAN PEARL",
+        "ship_type": "Product Tanker",
+        "final_score": 0.8294,
+        "proximity_score": 0.8324,
+        "time_score": 0.9592,
+        "speed_score": 0.6152,
+        "dwell_score": 0.7788,
+        "type_score": 1.0,
+        "metrics": {
+          "closest_distance_km": 8.38,
+          "time_offset_hours": 0.25,
+          "vessel_speed_mps": 1.92,
+          "hindcast_speed_mps": 0.0,
+          "dwell_minutes": 210.0
+        },
+        "justification": "Proximity 8.4 km at t+0.2 h | Speed match 1.9 m/s | Dwell 15 min after | Type = tanker",
+        "rank": 2
+      },
+      {
+        "mmsi": 419001007,
+        "name": "MARITIMA ONE",
+        "ship_type": "Oil Tanker",
+        "final_score": 0.8228,
+        "proximity_score": 0.8888,
+        "time_score": 0.92,
+        "speed_score": 0.6759,
+        "dwell_score": 0.6065,
+        "type_score": 1.0,
+        "metrics": {
+          "closest_distance_km": 5.56,
+          "time_offset_hours": -0.5,
+          "vessel_speed_mps": 1.62,
+          "hindcast_speed_mps": 0.0,
+          "dwell_minutes": 270.0
+        },
+        "justification": "Proximity 5.6 km at t-0.5 h | Speed match 1.6 m/s | Dwell 30 min before | Type = tanker",
+        "rank": 3
+      }
+    ]
+  },
+  {
+    "case_id": "CASE a2",
+    "data_source": "synthetic_demo_ais",
+    "spill_area_km2": 25.6348,
+    "estimated_origin": {
+      "lat": 8.40154,
+      "lon": 73.006061
+    },
+    "release_time_estimate": "2026-08-13T00:57:00Z",
+    "detection_time": "2026-08-14T00:57:00Z",
+    "ranked_suspects": [
+      {
+        "mmsi": 419002001,
+        "name": "SEA CHAMPION",
+        "ship_type": "Oil Tanker",
+        "final_score": 0.9513,
+        "proximity_score": 0.943,
+        "time_score": 1.0,
+        "speed_score": 0.8419,
+        "dwell_score": 1.0,
+        "type_score": 1.0,
+        "metrics": {
+          "closest_distance_km": 2.85,
+          "time_offset_hours": 0.0,
+          "vessel_speed_mps": 0.94,
+          "hindcast_speed_mps": 0.15,
+          "dwell_minutes": 375.0
+        },
+        "justification": "Proximity 2.9 km at t+0.0 h | Speed match 0.8 m/s | Dwell 0 min before | Type = tanker",
+        "rank": 1
+      },
+      {
+        "mmsi": 419002002,
+        "name": "INDUS GLORY",
+        "ship_type": "Product Tanker",
+        "final_score": 0.8943,
+        "proximity_score": 0.8442,
+        "time_score": 1.0,
+        "speed_score": 0.7051,
+        "dwell_score": 1.0,
+        "type_score": 1.0,
+        "metrics": {
+          "closest_distance_km": 7.79,
+          "time_offset_hours": 0.0,
+          "vessel_speed_mps": 1.63,
+          "hindcast_speed_mps": 0.15,
+          "dwell_minutes": 255.0
+        },
+        "justification": "Proximity 7.8 km at t+0.0 h | Speed match 1.5 m/s | Dwell 0 min before | Type = tanker",
+        "rank": 2
+      },
+      {
+        "mmsi": 419002007,
+        "name": "PETRO CHEVRON",
+        "ship_type": "Oil Tanker",
+        "final_score": 0.8115,
+        "proximity_score": 0.9094,
+        "time_score": 0.8825,
+        "speed_score": 0.7359,
+        "dwell_score": 0.4724,
+        "type_score": 1.0,
+        "metrics": {
+          "closest_distance_km": 4.53,
+          "time_offset_hours": -0.75,
+          "vessel_speed_mps": 1.47,
+          "hindcast_speed_mps": 0.15,
+          "dwell_minutes": 315.0
+        },
+        "justification": "Proximity 4.5 km at t-0.8 h | Speed match 1.3 m/s | Dwell 45 min before | Type = tanker",
+        "rank": 3
+      }
+    ]
+  },
+  {
+    "case_id": "CASE a3",
+    "data_source": "synthetic_demo_ais",
+    "spill_area_km2": 586.1558,
+    "estimated_origin": {
+      "lat": 6.907217,
+      "lon": 72.877641
+    },
+    "release_time_estimate": "2026-07-09T00:48:00Z",
+    "detection_time": "2026-07-10T00:48:00Z",
+    "ranked_suspects": [
+      {
+        "mmsi": 419002001,
+        "name": "SEA CHAMPION",
+        "ship_type": "Oil Tanker",
+        "final_score": 0.9548,
+        "proximity_score": 0.943,
+        "time_score": 1.0,
+        "speed_score": 0.8593,
+        "dwell_score": 1.0,
+        "type_score": 1.0,
+        "metrics": {
+          "closest_distance_km": 2.85,
+          "time_offset_hours": 0.0,
+          "vessel_speed_mps": 0.94,
+          "hindcast_speed_mps": 0.24,
+          "dwell_minutes": 375.0
+        },
+        "justification": "Proximity 2.9 km at t+0.0 h | Speed match 0.7 m/s | Dwell 0 min before | Type = tanker",
+        "rank": 1
+      },
+      {
+        "mmsi": 419002002,
+        "name": "INDUS GLORY",
+        "ship_type": "Product Tanker",
+        "final_score": 0.8978,
+        "proximity_score": 0.8442,
+        "time_score": 1.0,
+        "speed_score": 0.7225,
+        "dwell_score": 1.0,
+        "type_score": 1.0,
+        "metrics": {
+          "closest_distance_km": 7.79,
+          "time_offset_hours": 0.0,
+          "vessel_speed_mps": 1.63,
+          "hindcast_speed_mps": 0.24,
+          "dwell_minutes": 255.0
+        },
+        "justification": "Proximity 7.8 km at t+0.0 h | Speed match 1.4 m/s | Dwell 0 min before | Type = tanker",
+        "rank": 2
+      },
+      {
+        "mmsi": 419002007,
+        "name": "PETRO CHEVRON",
+        "ship_type": "Oil Tanker",
+        "final_score": 0.815,
+        "proximity_score": 0.9094,
+        "time_score": 0.8825,
+        "speed_score": 0.7533,
+        "dwell_score": 0.4724,
+        "type_score": 1.0,
+        "metrics": {
+          "closest_distance_km": 4.53,
+          "time_offset_hours": -0.75,
+          "vessel_speed_mps": 1.47,
+          "hindcast_speed_mps": 0.24,
+          "dwell_minutes": 315.0
+        },
+        "justification": "Proximity 4.5 km at t-0.8 h | Speed match 1.2 m/s | Dwell 45 min before | Type = tanker",
+        "rank": 3
+      }
+    ]
+  },
+  {
+    "case_id": "case 4a",
+    "data_source": "synthetic_demo_ais",
+    "spill_area_km2": 539.145,
+    "estimated_origin": {
+      "lat": 13.972263,
+      "lon": 74.683666
+    },
+    "release_time_estimate": "2026-07-09T00:48:00Z",
+    "detection_time": "2026-07-10T00:48:00Z",
+    "ranked_suspects": [
+      {
+        "mmsi": 419002001,
+        "name": "SEA CHAMPION",
+        "ship_type": "Oil Tanker",
+        "final_score": 0.9484,
+        "proximity_score": 0.943,
+        "time_score": 1.0,
+        "speed_score": 0.8277,
+        "dwell_score": 1.0,
+        "type_score": 1.0,
+        "metrics": {
+          "closest_distance_km": 2.85,
+          "time_offset_hours": 0.0,
+          "vessel_speed_mps": 0.94,
+          "hindcast_speed_mps": 0.08,
+          "dwell_minutes": 375.0
+        },
+        "justification": "Proximity 2.9 km at t+0.0 h | Speed match 0.9 m/s | Dwell 0 min before | Type = tanker",
+        "rank": 1
+      },
+      {
+        "mmsi": 419002002,
+        "name": "INDUS GLORY",
+        "ship_type": "Product Tanker",
+        "final_score": 0.8914,
+        "proximity_score": 0.8442,
+        "time_score": 1.0,
+        "speed_score": 0.6909,
+        "dwell_score": 1.0,
+        "type_score": 1.0,
+        "metrics": {
+          "closest_distance_km": 7.79,
+          "time_offset_hours": 0.0,
+          "vessel_speed_mps": 1.63,
+          "hindcast_speed_mps": 0.08,
+          "dwell_minutes": 255.0
+        },
+        "justification": "Proximity 7.8 km at t+0.0 h | Speed match 1.5 m/s | Dwell 0 min before | Type = tanker",
+        "rank": 2
+      },
+      {
+        "mmsi": 419002007,
+        "name": "PETRO CHEVRON",
+        "ship_type": "Oil Tanker",
+        "final_score": 0.8086,
+        "proximity_score": 0.9094,
+        "time_score": 0.8825,
+        "speed_score": 0.7217,
+        "dwell_score": 0.4724,
+        "type_score": 1.0,
+        "metrics": {
+          "closest_distance_km": 4.53,
+          "time_offset_hours": -0.75,
+          "vessel_speed_mps": 1.47,
+          "hindcast_speed_mps": 0.08,
+          "dwell_minutes": 315.0
+        },
+        "justification": "Proximity 4.5 km at t-0.8 h | Speed match 1.4 m/s | Dwell 45 min before | Type = tanker",
+        "rank": 3
+      }
+    ]
+  }
+]

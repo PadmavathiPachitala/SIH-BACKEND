@@ -1,0 +1,86 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            74.625591,
+            13.945847
+          ],
+          [
+            74.639045,
+            13.960162
+          ],
+          [
+            74.653919,
+            13.964196
+          ],
+          [
+            74.668793,
+            13.968229
+          ],
+          [
+            74.683666,
+            13.972263
+          ],
+          [
+            74.69854,
+            13.976296
+          ],
+          [
+            74.713414,
+            13.98033
+          ],
+          [
+            74.716885,
+            13.981271
+          ],
+          [
+            74.716885,
+            13.981271
+          ]
+        ]
+      },
+      "properties": {
+        "case_id": "case 4a",
+        "duration_hours": 48,
+        "confidence": 0.5833,
+        "type": "advection_trajectory"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.625591,
+          13.945847
+        ]
+      },
+      "properties": {
+        "name": "Detection Point (case 4a)",
+        "detection_time": "2026-07-10T00:48:00Z",
+        "type": "detection_point"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.716885,
+          13.981271
+        ]
+      },
+      "properties": {
+        "name": "Estimated Origin (48h)",
+        "duration_hours": 48,
+        "confidence": 0.5833,
+        "type": "estimated_origin"
+      }
+    }
+  ]
+}

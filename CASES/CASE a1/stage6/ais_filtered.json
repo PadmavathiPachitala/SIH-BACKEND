@@ -1,0 +1,2785 @@
+{
+  "case_id": "CASE a1",
+  "data_source": "synthetic_demo_ais",
+  "origin": {
+    "lat": 10.552083,
+    "lon": 76.056715
+  },
+  "release_time_estimate": "2026-07-08T00:48:00Z",
+  "detection_time": "2026-07-10T00:48:00Z",
+  "filter_defaults": {
+    "search_radius_km": 30.0,
+    "time_window_hours": 12.0,
+    "max_sog_near_origin_kn": 6.0,
+    "near_origin_radius_km": 15.0,
+    "min_dwell_minutes": 20.0
+  },
+  "vessels": [
+    {
+      "mmsi": 419001001,
+      "name": "DESERT STAR",
+      "ship_type": "Oil Tanker",
+      "closest_distance_km": 3.1,
+      "time_at_closest": "2026-07-08T01:03:00Z",
+      "avg_sog_near_origin": 2.05,
+      "dwell_minutes_near_origin": 405.0,
+      "points_in_time_window": 97,
+      "passes_distance_filter": true,
+      "passes_time_filter": true,
+      "passes_speed_filter": true,
+      "passes_dwell_filter": true,
+      "passes_type_filter": true,
+      "passes_all_default_filters": true,
+      "track": [
+        {
+          "lat": 11.003073,
+          "lon": 75.638748,
+          "time_iso": "2026-07-07T10:48:00Z",
+          "sog_kn": 2.58,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 67.82
+        },
+        {
+          "lat": 10.955283,
+          "lon": 75.687688,
+          "time_iso": "2026-07-07T11:03:00Z",
+          "sog_kn": 2.33,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 60.29
+        },
+        {
+          "lat": 11.012001,
+          "lon": 75.629774,
+          "time_iso": "2026-07-07T11:18:00Z",
+          "sog_kn": 2.74,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 69.21
+        },
+        {
+          "lat": 10.923204,
+          "lon": 75.719957,
+          "time_iso": "2026-07-07T11:33:00Z",
+          "sog_kn": 2.22,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 55.29
+        },
+        {
+          "lat": 10.916363,
+          "lon": 75.726949,
+          "time_iso": "2026-07-07T11:48:00Z",
+          "sog_kn": 2.22,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 54.21
+        },
+        {
+          "lat": 10.956577,
+          "lon": 75.686131,
+          "time_iso": "2026-07-07T12:03:00Z",
+          "sog_kn": 2.53,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 60.51
+        },
+        {
+          "lat": 10.972422,
+          "lon": 75.670053,
+          "time_iso": "2026-07-07T12:18:00Z",
+          "sog_kn": 2.69,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 63.0
+        },
+        {
+          "lat": 10.955004,
+          "lon": 75.687601,
+          "time_iso": "2026-07-07T12:33:00Z",
+          "sog_kn": 2.62,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 60.28
+        },
+        {
+          "lat": 10.969269,
+          "lon": 75.673101,
+          "time_iso": "2026-07-07T12:48:00Z",
+          "sog_kn": 2.77,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 62.51
+        },
+        {
+          "lat": 10.889812,
+          "lon": 75.754133,
+          "time_iso": "2026-07-07T13:03:00Z",
+          "sog_kn": 2.26,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 50.03
+        },
+        {
+          "lat": 10.940876,
+          "lon": 75.702246,
+          "time_iso": "2026-07-07T13:18:00Z",
+          "sog_kn": 2.68,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 58.04
+        },
+        {
+          "lat": 10.946031,
+          "lon": 75.69688,
+          "time_iso": "2026-07-07T13:33:00Z",
+          "sog_kn": 2.78,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 58.86
+        },
+        {
+          "lat": 10.926749,
+          "lon": 75.716666,
+          "time_iso": "2026-07-07T13:48:00Z",
+          "sog_kn": 2.7,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 55.82
+        },
+        {
+          "lat": 10.899678,
+          "lon": 75.743842,
+          "time_iso": "2026-07-07T14:03:00Z",
+          "sog_kn": 2.55,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 51.6
+        },
+        {
+          "lat": 10.866067,
+          "lon": 75.77779,
+          "time_iso": "2026-07-07T14:18:00Z",
+          "sog_kn": 2.34,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 46.34
+        },
+        {
+          "lat": 10.859462,
+          "lon": 75.784495,
+          "time_iso": "2026-07-07T14:33:00Z",
+          "sog_kn": 2.34,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 45.31
+        },
+        {
+          "lat": 10.881161,
+          "lon": 75.762622,
+          "time_iso": "2026-07-07T14:48:00Z",
+          "sog_kn": 2.58,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 48.7
+        },
+        {
+          "lat": 10.844138,
+          "lon": 75.800374,
+          "time_iso": "2026-07-07T15:03:00Z",
+          "sog_kn": 2.33,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 42.88
+        },
+        {
+          "lat": 10.866879,
+          "lon": 75.777133,
+          "time_iso": "2026-07-07T15:18:00Z",
+          "sog_kn": 2.59,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 46.46
+        },
+        {
+          "lat": 10.864377,
+          "lon": 75.779573,
+          "time_iso": "2026-07-07T15:33:00Z",
+          "sog_kn": 2.64,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 46.07
+        },
+        {
+          "lat": 10.873368,
+          "lon": 75.770715,
+          "time_iso": "2026-07-07T15:48:00Z",
+          "sog_kn": 2.79,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 47.46
+        },
+        {
+          "lat": 10.846355,
+          "lon": 75.798294,
+          "time_iso": "2026-07-07T16:03:00Z",
+          "sog_kn": 2.61,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 43.22
+        },
+        {
+          "lat": 10.81096,
+          "lon": 75.833693,
+          "time_iso": "2026-07-07T16:18:00Z",
+          "sog_kn": 2.34,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 37.72
+        },
+        {
+          "lat": 10.806403,
+          "lon": 75.838641,
+          "time_iso": "2026-07-07T16:33:00Z",
+          "sog_kn": 2.36,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 36.98
+        },
+        {
+          "lat": 10.833916,
+          "lon": 75.810652,
+          "time_iso": "2026-07-07T16:48:00Z",
+          "sog_kn": 2.73,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 41.29
+        },
+        {
+          "lat": 10.799783,
+          "lon": 75.84545,
+          "time_iso": "2026-07-07T17:03:00Z",
+          "sog_kn": 2.44,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 35.94
+        },
+        {
+          "lat": 10.785402,
+          "lon": 75.859812,
+          "time_iso": "2026-07-07T17:18:00Z",
+          "sog_kn": 2.36,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 33.71
+        },
+        {
+          "lat": 10.778478,
+          "lon": 75.867109,
+          "time_iso": "2026-07-07T17:33:00Z",
+          "sog_kn": 2.36,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 32.6
+        },
+        {
+          "lat": 10.77815,
+          "lon": 75.867333,
+          "time_iso": "2026-07-07T17:48:00Z",
+          "sog_kn": 2.44,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 32.56
+        },
+        {
+          "lat": 10.776167,
+          "lon": 75.868913,
+          "time_iso": "2026-07-07T18:03:00Z",
+          "sog_kn": 2.51,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 32.28
+        },
+        {
+          "lat": 10.750622,
+          "lon": 75.895347,
+          "time_iso": "2026-07-07T18:18:00Z",
+          "sog_kn": 2.27,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 28.25
+        },
+        {
+          "lat": 10.757532,
+          "lon": 75.887944,
+          "time_iso": "2026-07-07T18:33:00Z",
+          "sog_kn": 2.45,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 29.36
+        },
+        {
+          "lat": 10.774839,
+          "lon": 75.870807,
+          "time_iso": "2026-07-07T18:48:00Z",
+          "sog_kn": 2.8,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 32.03
+        },
+        {
+          "lat": 10.760888,
+          "lon": 75.884653,
+          "time_iso": "2026-07-07T19:03:00Z",
+          "sog_kn": 2.72,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 29.88
+        },
+        {
+          "lat": 10.746132,
+          "lon": 75.899657,
+          "time_iso": "2026-07-07T19:18:00Z",
+          "sog_kn": 2.61,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 27.57
+        },
+        {
+          "lat": 10.736763,
+          "lon": 75.909057,
+          "time_iso": "2026-07-07T19:33:00Z",
+          "sog_kn": 2.58,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 26.12
+        },
+        {
+          "lat": 10.722867,
+          "lon": 75.923676,
+          "time_iso": "2026-07-07T19:48:00Z",
+          "sog_kn": 2.47,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 23.92
+        },
+        {
+          "lat": 10.70901,
+          "lon": 75.937273,
+          "time_iso": "2026-07-07T20:03:00Z",
+          "sog_kn": 2.36,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 21.79
+        },
+        {
+          "lat": 10.722868,
+          "lon": 75.92341,
+          "time_iso": "2026-07-07T20:18:00Z",
+          "sog_kn": 2.75,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 23.93
+        },
+        {
+          "lat": 10.706445,
+          "lon": 75.939909,
+          "time_iso": "2026-07-07T20:33:00Z",
+          "sog_kn": 2.58,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 21.39
+        },
+        {
+          "lat": 10.702301,
+          "lon": 75.944336,
+          "time_iso": "2026-07-07T20:48:00Z",
+          "sog_kn": 2.66,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 20.73
+        },
+        {
+          "lat": 10.688101,
+          "lon": 75.958343,
+          "time_iso": "2026-07-07T21:03:00Z",
+          "sog_kn": 2.52,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 18.56
+        },
+        {
+          "lat": 10.668411,
+          "lon": 75.97892,
+          "time_iso": "2026-07-07T21:18:00Z",
+          "sog_kn": 2.21,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 15.48
+        },
+        {
+          "lat": 10.68031,
+          "lon": 75.966266,
+          "time_iso": "2026-07-07T21:33:00Z",
+          "sog_kn": 2.7,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 17.35
+        },
+        {
+          "lat": 10.655921,
+          "lon": 75.991282,
+          "time_iso": "2026-07-07T21:48:00Z",
+          "sog_kn": 2.23,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 13.58
+        },
+        {
+          "lat": 10.641388,
+          "lon": 76.005943,
+          "time_iso": "2026-07-07T22:03:00Z",
+          "sog_kn": 1.99,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 11.38
+        },
+        {
+          "lat": 10.640491,
+          "lon": 76.006763,
+          "time_iso": "2026-07-07T22:18:00Z",
+          "sog_kn": 2.16,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 11.24
+        },
+        {
+          "lat": 10.630747,
+          "lon": 76.016864,
+          "time_iso": "2026-07-07T22:33:00Z",
+          "sog_kn": 2.03,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 9.77
+        },
+        {
+          "lat": 10.622954,
+          "lon": 76.024615,
+          "time_iso": "2026-07-07T22:48:00Z",
+          "sog_kn": 1.95,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 8.63
+        },
+        {
+          "lat": 10.62099,
+          "lon": 76.026513,
+          "time_iso": "2026-07-07T23:03:00Z",
+          "sog_kn": 2.14,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 8.34
+        },
+        {
+          "lat": 10.617684,
+          "lon": 76.0301,
+          "time_iso": "2026-07-07T23:18:00Z",
+          "sog_kn": 2.3,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 7.85
+        },
+        {
+          "lat": 10.606484,
+          "lon": 76.041164,
+          "time_iso": "2026-07-07T23:33:00Z",
+          "sog_kn": 2.01,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 6.28
+        },
+        {
+          "lat": 10.599479,
+          "lon": 76.048464,
+          "time_iso": "2026-07-07T23:48:00Z",
+          "sog_kn": 1.9,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 5.35
+        },
+        {
+          "lat": 10.593041,
+          "lon": 76.054946,
+          "time_iso": "2026-07-08T00:03:00Z",
+          "sog_kn": 1.83,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 4.56
+        },
+        {
+          "lat": 10.588008,
+          "lon": 76.060483,
+          "time_iso": "2026-07-08T00:18:00Z",
+          "sog_kn": 1.84,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 4.02
+        },
+        {
+          "lat": 10.582049,
+          "lon": 76.066182,
+          "time_iso": "2026-07-08T00:33:00Z",
+          "sog_kn": 1.74,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 3.49
+        },
+        {
+          "lat": 10.576873,
+          "lon": 76.071498,
+          "time_iso": "2026-07-08T00:48:00Z",
+          "sog_kn": 1.83,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 3.2
+        },
+        {
+          "lat": 10.570992,
+          "lon": 76.077543,
+          "time_iso": "2026-07-08T01:03:00Z",
+          "sog_kn": 2.04,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 3.1
+        },
+        {
+          "lat": 10.564025,
+          "lon": 76.084222,
+          "time_iso": "2026-07-08T01:18:00Z",
+          "sog_kn": 2.18,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 3.29
+        },
+        {
+          "lat": 10.559679,
+          "lon": 76.088874,
+          "time_iso": "2026-07-08T01:33:00Z",
+          "sog_kn": 1.96,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 3.62
+        },
+        {
+          "lat": 10.551902,
+          "lon": 76.097074,
+          "time_iso": "2026-07-08T01:48:00Z",
+          "sog_kn": 2.14,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 4.41
+        },
+        {
+          "lat": 10.55107,
+          "lon": 76.09755,
+          "time_iso": "2026-07-08T02:03:00Z",
+          "sog_kn": 1.76,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 4.47
+        },
+        {
+          "lat": 10.537732,
+          "lon": 76.110961,
+          "time_iso": "2026-07-08T02:18:00Z",
+          "sog_kn": 2.22,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 6.14
+        },
+        {
+          "lat": 10.536381,
+          "lon": 76.112438,
+          "time_iso": "2026-07-08T02:33:00Z",
+          "sog_kn": 1.97,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 6.34
+        },
+        {
+          "lat": 10.533591,
+          "lon": 76.115537,
+          "time_iso": "2026-07-08T02:48:00Z",
+          "sog_kn": 1.85,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 6.75
+        },
+        {
+          "lat": 10.518264,
+          "lon": 76.130781,
+          "time_iso": "2026-07-08T03:03:00Z",
+          "sog_kn": 2.22,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 8.93
+        },
+        {
+          "lat": 10.509409,
+          "lon": 76.140249,
+          "time_iso": "2026-07-08T03:18:00Z",
+          "sog_kn": 2.3,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 10.29
+        },
+        {
+          "lat": 10.504057,
+          "lon": 76.145363,
+          "time_iso": "2026-07-08T03:33:00Z",
+          "sog_kn": 2.26,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 11.07
+        },
+        {
+          "lat": 10.506506,
+          "lon": 76.142715,
+          "time_iso": "2026-07-08T03:48:00Z",
+          "sog_kn": 1.99,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 10.68
+        },
+        {
+          "lat": 10.491369,
+          "lon": 76.158375,
+          "time_iso": "2026-07-08T04:03:00Z",
+          "sog_kn": 2.24,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 13.0
+        },
+        {
+          "lat": 10.479834,
+          "lon": 76.17003,
+          "time_iso": "2026-07-08T04:18:00Z",
+          "sog_kn": 2.36,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 14.77
+        },
+        {
+          "lat": 10.468769,
+          "lon": 76.181544,
+          "time_iso": "2026-07-08T04:33:00Z",
+          "sog_kn": 2.45,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 16.49
+        },
+        {
+          "lat": 10.45769,
+          "lon": 76.192352,
+          "time_iso": "2026-07-08T04:48:00Z",
+          "sog_kn": 2.53,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 18.17
+        },
+        {
+          "lat": 10.458111,
+          "lon": 76.192196,
+          "time_iso": "2026-07-08T05:03:00Z",
+          "sog_kn": 2.38,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 18.13
+        },
+        {
+          "lat": 10.443206,
+          "lon": 76.207021,
+          "time_iso": "2026-07-08T05:18:00Z",
+          "sog_kn": 2.53,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 20.41
+        },
+        {
+          "lat": 10.434259,
+          "lon": 76.216318,
+          "time_iso": "2026-07-08T05:33:00Z",
+          "sog_kn": 2.55,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 21.82
+        },
+        {
+          "lat": 10.442014,
+          "lon": 76.208326,
+          "time_iso": "2026-07-08T05:48:00Z",
+          "sog_kn": 2.29,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 20.6
+        },
+        {
+          "lat": 10.434055,
+          "lon": 76.216491,
+          "time_iso": "2026-07-08T06:03:00Z",
+          "sog_kn": 2.31,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 21.85
+        },
+        {
+          "lat": 10.425135,
+          "lon": 76.225435,
+          "time_iso": "2026-07-08T06:18:00Z",
+          "sog_kn": 2.34,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 23.23
+        },
+        {
+          "lat": 10.41798,
+          "lon": 76.232779,
+          "time_iso": "2026-07-08T06:33:00Z",
+          "sog_kn": 2.35,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 24.35
+        },
+        {
+          "lat": 10.40372,
+          "lon": 76.247205,
+          "time_iso": "2026-07-08T06:48:00Z",
+          "sog_kn": 2.45,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 26.57
+        },
+        {
+          "lat": 10.373566,
+          "lon": 76.277723,
+          "time_iso": "2026-07-08T07:03:00Z",
+          "sog_kn": 2.76,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 31.27
+        },
+        {
+          "lat": 10.397497,
+          "lon": 76.253502,
+          "time_iso": "2026-07-08T07:18:00Z",
+          "sog_kn": 2.34,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 27.54
+        },
+        {
+          "lat": 10.387636,
+          "lon": 76.263507,
+          "time_iso": "2026-07-08T07:33:00Z",
+          "sog_kn": 2.38,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 29.08
+        },
+        {
+          "lat": 10.391939,
+          "lon": 76.259298,
+          "time_iso": "2026-07-08T07:48:00Z",
+          "sog_kn": 2.24,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 28.42
+        },
+        {
+          "lat": 10.337833,
+          "lon": 76.313725,
+          "time_iso": "2026-07-08T08:03:00Z",
+          "sog_kn": 2.8,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 36.84
+        },
+        {
+          "lat": 10.368694,
+          "lon": 76.283029,
+          "time_iso": "2026-07-08T08:18:00Z",
+          "sog_kn": 2.36,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 32.07
+        },
+        {
+          "lat": 10.32787,
+          "lon": 76.323933,
+          "time_iso": "2026-07-08T08:33:00Z",
+          "sog_kn": 2.73,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 38.41
+        },
+        {
+          "lat": 10.322543,
+          "lon": 76.329655,
+          "time_iso": "2026-07-08T08:48:00Z",
+          "sog_kn": 2.7,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 39.27
+        },
+        {
+          "lat": 10.305615,
+          "lon": 76.346569,
+          "time_iso": "2026-07-08T09:03:00Z",
+          "sog_kn": 2.79,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 41.9
+        },
+        {
+          "lat": 10.307471,
+          "lon": 76.344804,
+          "time_iso": "2026-07-08T09:18:00Z",
+          "sog_kn": 2.69,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 41.62
+        },
+        {
+          "lat": 10.291943,
+          "lon": 76.360274,
+          "time_iso": "2026-07-08T09:33:00Z",
+          "sog_kn": 2.76,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 44.03
+        },
+        {
+          "lat": 10.336906,
+          "lon": 76.314885,
+          "time_iso": "2026-07-08T09:48:00Z",
+          "sog_kn": 2.26,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 37.01
+        },
+        {
+          "lat": 10.297745,
+          "lon": 76.354659,
+          "time_iso": "2026-07-08T10:03:00Z",
+          "sog_kn": 2.56,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 43.14
+        },
+        {
+          "lat": 10.288038,
+          "lon": 76.364438,
+          "time_iso": "2026-07-08T10:18:00Z",
+          "sog_kn": 2.58,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 44.66
+        },
+        {
+          "lat": 10.26198,
+          "lon": 76.390955,
+          "time_iso": "2026-07-08T10:33:00Z",
+          "sog_kn": 2.74,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 48.75
+        },
+        {
+          "lat": 10.287733,
+          "lon": 76.364558,
+          "time_iso": "2026-07-08T10:48:00Z",
+          "sog_kn": 2.45,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 44.69
+        },
+        {
+          "lat": 10.25546,
+          "lon": 76.397553,
+          "time_iso": "2026-07-08T11:03:00Z",
+          "sog_kn": 2.66,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 49.77
+        },
+        {
+          "lat": 10.249801,
+          "lon": 76.403327,
+          "time_iso": "2026-07-08T11:18:00Z",
+          "sog_kn": 2.64,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 50.66
+        },
+        {
+          "lat": 10.297423,
+          "lon": 76.354997,
+          "time_iso": "2026-07-08T11:33:00Z",
+          "sog_kn": 2.21,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 43.2
+        },
+        {
+          "lat": 10.221562,
+          "lon": 76.43214,
+          "time_iso": "2026-07-08T11:48:00Z",
+          "sog_kn": 2.74,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 55.11
+        },
+        {
+          "lat": 10.23889,
+          "lon": 76.414114,
+          "time_iso": "2026-07-08T12:03:00Z",
+          "sog_kn": 2.55,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 52.35
+        },
+        {
+          "lat": 10.253979,
+          "lon": 76.399376,
+          "time_iso": "2026-07-08T12:18:00Z",
+          "sog_kn": 2.38,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 50.03
+        },
+        {
+          "lat": 10.201057,
+          "lon": 76.452839,
+          "time_iso": "2026-07-08T12:33:00Z",
+          "sog_kn": 2.72,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 58.32
+        },
+        {
+          "lat": 10.244591,
+          "lon": 76.408572,
+          "time_iso": "2026-07-08T12:48:00Z",
+          "sog_kn": 2.35,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 51.48
+        },
+        {
+          "lat": 10.182825,
+          "lon": 76.471302,
+          "time_iso": "2026-07-08T13:03:00Z",
+          "sog_kn": 2.73,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 61.17
+        },
+        {
+          "lat": 10.239471,
+          "lon": 76.414136,
+          "time_iso": "2026-07-08T13:18:00Z",
+          "sog_kn": 2.29,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 52.31
+        },
+        {
+          "lat": 10.158599,
+          "lon": 76.496152,
+          "time_iso": "2026-07-08T13:33:00Z",
+          "sog_kn": 2.79,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 65.0
+        },
+        {
+          "lat": 10.237813,
+          "lon": 76.415528,
+          "time_iso": "2026-07-08T13:48:00Z",
+          "sog_kn": 2.21,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 52.55
+        },
+        {
+          "lat": 10.146434,
+          "lon": 76.508484,
+          "time_iso": "2026-07-08T14:03:00Z",
+          "sog_kn": 2.76,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 66.91
+        },
+        {
+          "lat": 10.149554,
+          "lon": 76.505071,
+          "time_iso": "2026-07-08T14:18:00Z",
+          "sog_kn": 2.69,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 66.4
+        },
+        {
+          "lat": 10.210193,
+          "lon": 76.443818,
+          "time_iso": "2026-07-08T14:33:00Z",
+          "sog_kn": 2.26,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 56.9
+        },
+        {
+          "lat": 10.19218,
+          "lon": 76.461912,
+          "time_iso": "2026-07-08T14:48:00Z",
+          "sog_kn": 2.33,
+          "cog_deg": 135.0,
+          "distance_to_origin_km": 59.71
+        }
+      ]
+    },
+    {
+      "mmsi": 419001002,
+      "name": "ARABIAN PEARL",
+      "ship_type": "Product Tanker",
+      "closest_distance_km": 8.38,
+      "time_at_closest": "2026-07-08T01:03:00Z",
+      "avg_sog_near_origin": 3.74,
+      "dwell_minutes_near_origin": 210.0,
+      "points_in_time_window": 97,
+      "passes_distance_filter": true,
+      "passes_time_filter": true,
+      "passes_speed_filter": true,
+      "passes_dwell_filter": true,
+      "passes_type_filter": true,
+      "passes_all_default_filters": true,
+      "track": [
+        {
+          "lat": 11.922888,
+          "lon": 77.323363,
+          "time_iso": "2026-07-07T10:48:00Z",
+          "sog_kn": 7.88,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 205.71
+        },
+        {
+          "lat": 11.867837,
+          "lon": 77.276739,
+          "time_iso": "2026-07-07T11:03:00Z",
+          "sog_kn": 7.71,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 197.77
+        },
+        {
+          "lat": 11.930459,
+          "lon": 77.329771,
+          "time_iso": "2026-07-07T11:18:00Z",
+          "sog_kn": 8.22,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 206.8
+        },
+        {
+          "lat": 11.881382,
+          "lon": 77.288462,
+          "time_iso": "2026-07-07T11:33:00Z",
+          "sog_kn": 8.08,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 199.74
+        },
+        {
+          "lat": 11.845312,
+          "lon": 77.257222,
+          "time_iso": "2026-07-07T11:48:00Z",
+          "sog_kn": 8.02,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 194.49
+        },
+        {
+          "lat": 11.86181,
+          "lon": 77.271866,
+          "time_iso": "2026-07-07T12:03:00Z",
+          "sog_kn": 8.28,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 196.92
+        },
+        {
+          "lat": 11.767853,
+          "lon": 77.191685,
+          "time_iso": "2026-07-07T12:18:00Z",
+          "sog_kn": 7.86,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 183.32
+        },
+        {
+          "lat": 11.786303,
+          "lon": 77.207392,
+          "time_iso": "2026-07-07T12:33:00Z",
+          "sog_kn": 8.14,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 185.99
+        },
+        {
+          "lat": 11.740404,
+          "lon": 77.168278,
+          "time_iso": "2026-07-07T12:48:00Z",
+          "sog_kn": 8.01,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 179.35
+        },
+        {
+          "lat": 11.691876,
+          "lon": 77.126621,
+          "time_iso": "2026-07-07T13:03:00Z",
+          "sog_kn": 7.85,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 172.31
+        },
+        {
+          "lat": 11.725838,
+          "lon": 77.155882,
+          "time_iso": "2026-07-07T13:18:00Z",
+          "sog_kn": 8.26,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 177.24
+        },
+        {
+          "lat": 11.68372,
+          "lon": 77.119836,
+          "time_iso": "2026-07-07T13:33:00Z",
+          "sog_kn": 8.15,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 171.14
+        },
+        {
+          "lat": 11.601103,
+          "lon": 77.049485,
+          "time_iso": "2026-07-07T13:48:00Z",
+          "sog_kn": 7.74,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 159.19
+        },
+        {
+          "lat": 11.596554,
+          "lon": 77.045705,
+          "time_iso": "2026-07-07T14:03:00Z",
+          "sog_kn": 7.89,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 158.54
+        },
+        {
+          "lat": 11.570069,
+          "lon": 77.023215,
+          "time_iso": "2026-07-07T14:18:00Z",
+          "sog_kn": 7.88,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 154.72
+        },
+        {
+          "lat": 11.552928,
+          "lon": 77.008514,
+          "time_iso": "2026-07-07T14:33:00Z",
+          "sog_kn": 7.94,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 152.23
+        },
+        {
+          "lat": 11.529223,
+          "lon": 76.988332,
+          "time_iso": "2026-07-07T14:48:00Z",
+          "sog_kn": 7.95,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 148.8
+        },
+        {
+          "lat": 11.539736,
+          "lon": 76.997243,
+          "time_iso": "2026-07-07T15:03:00Z",
+          "sog_kn": 8.24,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 150.32
+        },
+        {
+          "lat": 11.487364,
+          "lon": 76.952857,
+          "time_iso": "2026-07-07T15:18:00Z",
+          "sog_kn": 8.03,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 142.77
+        },
+        {
+          "lat": 11.453607,
+          "lon": 76.924067,
+          "time_iso": "2026-07-07T15:33:00Z",
+          "sog_kn": 7.96,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 137.88
+        },
+        {
+          "lat": 11.430573,
+          "lon": 76.904327,
+          "time_iso": "2026-07-07T15:48:00Z",
+          "sog_kn": 7.98,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 134.54
+        },
+        {
+          "lat": 11.405841,
+          "lon": 76.883347,
+          "time_iso": "2026-07-07T16:03:00Z",
+          "sog_kn": 7.98,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 130.98
+        },
+        {
+          "lat": 11.360273,
+          "lon": 76.844717,
+          "time_iso": "2026-07-07T16:18:00Z",
+          "sog_kn": 7.8,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 124.4
+        },
+        {
+          "lat": 11.364748,
+          "lon": 76.848562,
+          "time_iso": "2026-07-07T16:33:00Z",
+          "sog_kn": 8.08,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 125.05
+        },
+        {
+          "lat": 11.346338,
+          "lon": 76.832536,
+          "time_iso": "2026-07-07T16:48:00Z",
+          "sog_kn": 8.15,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 122.37
+        },
+        {
+          "lat": 11.287297,
+          "lon": 76.782497,
+          "time_iso": "2026-07-07T17:03:00Z",
+          "sog_kn": 7.82,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 113.85
+        },
+        {
+          "lat": 11.278527,
+          "lon": 76.774681,
+          "time_iso": "2026-07-07T17:18:00Z",
+          "sog_kn": 7.99,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 112.56
+        },
+        {
+          "lat": 11.249583,
+          "lon": 76.750162,
+          "time_iso": "2026-07-07T17:33:00Z",
+          "sog_kn": 7.95,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 108.39
+        },
+        {
+          "lat": 11.239276,
+          "lon": 76.741453,
+          "time_iso": "2026-07-07T17:48:00Z",
+          "sog_kn": 8.12,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 106.91
+        },
+        {
+          "lat": 11.211088,
+          "lon": 76.717823,
+          "time_iso": "2026-07-07T18:03:00Z",
+          "sog_kn": 8.09,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 102.86
+        },
+        {
+          "lat": 11.190973,
+          "lon": 76.700532,
+          "time_iso": "2026-07-07T18:18:00Z",
+          "sog_kn": 8.16,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 99.95
+        },
+        {
+          "lat": 11.136819,
+          "lon": 76.654174,
+          "time_iso": "2026-07-07T18:33:00Z",
+          "sog_kn": 7.81,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 92.11
+        },
+        {
+          "lat": 11.105848,
+          "lon": 76.628179,
+          "time_iso": "2026-07-07T18:48:00Z",
+          "sog_kn": 7.73,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 87.67
+        },
+        {
+          "lat": 11.09929,
+          "lon": 76.622335,
+          "time_iso": "2026-07-07T19:03:00Z",
+          "sog_kn": 7.97,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 86.71
+        },
+        {
+          "lat": 11.096147,
+          "lon": 76.619843,
+          "time_iso": "2026-07-07T19:18:00Z",
+          "sog_kn": 8.29,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 86.27
+        },
+        {
+          "lat": 11.065808,
+          "lon": 76.593914,
+          "time_iso": "2026-07-07T19:33:00Z",
+          "sog_kn": 8.23,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 81.89
+        },
+        {
+          "lat": 11.024805,
+          "lon": 76.558862,
+          "time_iso": "2026-07-07T19:48:00Z",
+          "sog_kn": 8.0,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 75.97
+        },
+        {
+          "lat": 11.013507,
+          "lon": 76.549243,
+          "time_iso": "2026-07-07T20:03:00Z",
+          "sog_kn": 8.24,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 74.34
+        },
+        {
+          "lat": 10.965023,
+          "lon": 76.508199,
+          "time_iso": "2026-07-07T20:18:00Z",
+          "sog_kn": 7.86,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 67.39
+        },
+        {
+          "lat": 10.956554,
+          "lon": 76.50089,
+          "time_iso": "2026-07-07T20:33:00Z",
+          "sog_kn": 8.16,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 66.16
+        },
+        {
+          "lat": 10.915285,
+          "lon": 76.465769,
+          "time_iso": "2026-07-07T20:48:00Z",
+          "sog_kn": 7.86,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 60.23
+        },
+        {
+          "lat": 10.890198,
+          "lon": 76.44443,
+          "time_iso": "2026-07-07T21:03:00Z",
+          "sog_kn": 7.86,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 56.64
+        },
+        {
+          "lat": 10.861492,
+          "lon": 76.420082,
+          "time_iso": "2026-07-07T21:18:00Z",
+          "sog_kn": 7.78,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 52.53
+        },
+        {
+          "lat": 10.850727,
+          "lon": 76.410858,
+          "time_iso": "2026-07-07T21:33:00Z",
+          "sog_kn": 8.12,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 50.99
+        },
+        {
+          "lat": 10.66032,
+          "lon": 76.248548,
+          "time_iso": "2026-07-07T21:48:00Z",
+          "sog_kn": 3.83,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 24.18
+        },
+        {
+          "lat": 10.645727,
+          "lon": 76.236108,
+          "time_iso": "2026-07-07T22:03:00Z",
+          "sog_kn": 3.75,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 22.2
+        },
+        {
+          "lat": 10.639006,
+          "lon": 76.230475,
+          "time_iso": "2026-07-07T22:18:00Z",
+          "sog_kn": 3.92,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 21.31
+        },
+        {
+          "lat": 10.620732,
+          "lon": 76.215041,
+          "time_iso": "2026-07-07T22:33:00Z",
+          "sog_kn": 3.73,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 18.91
+        },
+        {
+          "lat": 10.614888,
+          "lon": 76.210017,
+          "time_iso": "2026-07-07T22:48:00Z",
+          "sog_kn": 3.95,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 18.15
+        },
+        {
+          "lat": 10.597749,
+          "lon": 76.195298,
+          "time_iso": "2026-07-07T23:03:00Z",
+          "sog_kn": 3.75,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 15.98
+        },
+        {
+          "lat": 10.587682,
+          "lon": 76.186776,
+          "time_iso": "2026-07-07T23:18:00Z",
+          "sog_kn": 3.86,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 14.76
+        },
+        {
+          "lat": 10.573676,
+          "lon": 76.174964,
+          "time_iso": "2026-07-07T23:33:00Z",
+          "sog_kn": 3.76,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 13.15
+        },
+        {
+          "lat": 10.563685,
+          "lon": 76.166261,
+          "time_iso": "2026-07-07T23:48:00Z",
+          "sog_kn": 3.91,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 12.04
+        },
+        {
+          "lat": 10.549887,
+          "lon": 76.154791,
+          "time_iso": "2026-07-08T00:03:00Z",
+          "sog_kn": 3.78,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 10.72
+        },
+        {
+          "lat": 10.536241,
+          "lon": 76.143059,
+          "time_iso": "2026-07-08T00:18:00Z",
+          "sog_kn": 3.52,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 9.6
+        },
+        {
+          "lat": 10.525119,
+          "lon": 76.133334,
+          "time_iso": "2026-07-08T00:33:00Z",
+          "sog_kn": 3.52,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 8.9
+        },
+        {
+          "lat": 10.51366,
+          "lon": 76.123876,
+          "time_iso": "2026-07-08T00:48:00Z",
+          "sog_kn": 3.78,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 8.49
+        },
+        {
+          "lat": 10.502194,
+          "lon": 76.114174,
+          "time_iso": "2026-07-08T01:03:00Z",
+          "sog_kn": 3.63,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 8.38
+        },
+        {
+          "lat": 10.490147,
+          "lon": 76.103801,
+          "time_iso": "2026-07-08T01:18:00Z",
+          "sog_kn": 3.73,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 8.6
+        },
+        {
+          "lat": 10.478712,
+          "lon": 76.093967,
+          "time_iso": "2026-07-08T01:33:00Z",
+          "sog_kn": 3.65,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 9.12
+        },
+        {
+          "lat": 10.465226,
+          "lon": 76.082305,
+          "time_iso": "2026-07-08T01:48:00Z",
+          "sog_kn": 3.82,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 10.06
+        },
+        {
+          "lat": 10.451875,
+          "lon": 76.071134,
+          "time_iso": "2026-07-08T02:03:00Z",
+          "sog_kn": 3.89,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 11.25
+        },
+        {
+          "lat": 10.438331,
+          "lon": 76.059364,
+          "time_iso": "2026-07-08T02:18:00Z",
+          "sog_kn": 3.95,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 12.65
+        },
+        {
+          "lat": 10.435234,
+          "lon": 76.05697,
+          "time_iso": "2026-07-08T02:33:00Z",
+          "sog_kn": 3.51,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 12.99
+        },
+        {
+          "lat": 10.414245,
+          "lon": 76.038997,
+          "time_iso": "2026-07-08T02:48:00Z",
+          "sog_kn": 3.9,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 15.45
+        },
+        {
+          "lat": 10.401357,
+          "lon": 76.027935,
+          "time_iso": "2026-07-08T03:03:00Z",
+          "sog_kn": 3.92,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 17.05
+        },
+        {
+          "lat": 10.390605,
+          "lon": 76.018766,
+          "time_iso": "2026-07-08T03:18:00Z",
+          "sog_kn": 3.86,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 18.43
+        },
+        {
+          "lat": 10.373892,
+          "lon": 76.00446,
+          "time_iso": "2026-07-08T03:33:00Z",
+          "sog_kn": 3.99,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 20.62
+        },
+        {
+          "lat": 10.379128,
+          "lon": 76.009368,
+          "time_iso": "2026-07-08T03:48:00Z",
+          "sog_kn": 3.52,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 19.92
+        },
+        {
+          "lat": 10.17047,
+          "lon": 75.831705,
+          "time_iso": "2026-07-08T04:03:00Z",
+          "sog_kn": 8.27,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 49.05
+        },
+        {
+          "lat": 10.167828,
+          "lon": 75.82932,
+          "time_iso": "2026-07-08T04:18:00Z",
+          "sog_kn": 7.75,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 49.44
+        },
+        {
+          "lat": 10.142396,
+          "lon": 75.807729,
+          "time_iso": "2026-07-08T04:33:00Z",
+          "sog_kn": 7.76,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 53.08
+        },
+        {
+          "lat": 10.102091,
+          "lon": 75.773689,
+          "time_iso": "2026-07-08T04:48:00Z",
+          "sog_kn": 8.06,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 58.84
+        },
+        {
+          "lat": 10.070525,
+          "lon": 75.746515,
+          "time_iso": "2026-07-08T05:03:00Z",
+          "sog_kn": 8.17,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 63.39
+        },
+        {
+          "lat": 10.058718,
+          "lon": 75.736374,
+          "time_iso": "2026-07-08T05:18:00Z",
+          "sog_kn": 7.92,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 65.1
+        },
+        {
+          "lat": 10.016132,
+          "lon": 75.699914,
+          "time_iso": "2026-07-08T05:33:00Z",
+          "sog_kn": 8.21,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 71.24
+        },
+        {
+          "lat": 9.985596,
+          "lon": 75.674269,
+          "time_iso": "2026-07-08T05:48:00Z",
+          "sog_kn": 8.28,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 75.62
+        },
+        {
+          "lat": 9.969294,
+          "lon": 75.660421,
+          "time_iso": "2026-07-08T06:03:00Z",
+          "sog_kn": 8.12,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 77.97
+        },
+        {
+          "lat": 9.932422,
+          "lon": 75.629114,
+          "time_iso": "2026-07-08T06:18:00Z",
+          "sog_kn": 8.28,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 83.29
+        },
+        {
+          "lat": 9.924904,
+          "lon": 75.622491,
+          "time_iso": "2026-07-08T06:33:00Z",
+          "sog_kn": 8.02,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 84.39
+        },
+        {
+          "lat": 9.890349,
+          "lon": 75.593311,
+          "time_iso": "2026-07-08T06:48:00Z",
+          "sog_kn": 8.14,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 89.36
+        },
+        {
+          "lat": 9.859528,
+          "lon": 75.567145,
+          "time_iso": "2026-07-08T07:03:00Z",
+          "sog_kn": 8.2,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 93.81
+        },
+        {
+          "lat": 9.862733,
+          "lon": 75.569636,
+          "time_iso": "2026-07-08T07:18:00Z",
+          "sog_kn": 7.85,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 93.36
+        },
+        {
+          "lat": 9.83053,
+          "lon": 75.542463,
+          "time_iso": "2026-07-08T07:33:00Z",
+          "sog_kn": 7.93,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 98.0
+        },
+        {
+          "lat": 9.815873,
+          "lon": 75.529901,
+          "time_iso": "2026-07-08T07:48:00Z",
+          "sog_kn": 7.81,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 100.13
+        },
+        {
+          "lat": 9.782415,
+          "lon": 75.501149,
+          "time_iso": "2026-07-08T08:03:00Z",
+          "sog_kn": 7.9,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 104.98
+        },
+        {
+          "lat": 9.760521,
+          "lon": 75.482904,
+          "time_iso": "2026-07-08T08:18:00Z",
+          "sog_kn": 7.87,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 108.13
+        },
+        {
+          "lat": 9.747019,
+          "lon": 75.470983,
+          "time_iso": "2026-07-08T08:33:00Z",
+          "sog_kn": 7.75,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 110.11
+        },
+        {
+          "lat": 9.681055,
+          "lon": 75.414895,
+          "time_iso": "2026-07-08T08:48:00Z",
+          "sog_kn": 8.15,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 119.65
+        },
+        {
+          "lat": 9.671964,
+          "lon": 75.406899,
+          "time_iso": "2026-07-08T09:03:00Z",
+          "sog_kn": 7.99,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 120.99
+        },
+        {
+          "lat": 9.663937,
+          "lon": 75.400184,
+          "time_iso": "2026-07-08T09:18:00Z",
+          "sog_kn": 7.83,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 122.14
+        },
+        {
+          "lat": 9.614725,
+          "lon": 75.35845,
+          "time_iso": "2026-07-08T09:33:00Z",
+          "sog_kn": 8.05,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 129.26
+        },
+        {
+          "lat": 9.599903,
+          "lon": 75.345658,
+          "time_iso": "2026-07-08T09:48:00Z",
+          "sog_kn": 7.96,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 131.42
+        },
+        {
+          "lat": 9.554672,
+          "lon": 75.307279,
+          "time_iso": "2026-07-08T10:03:00Z",
+          "sog_kn": 8.12,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 137.96
+        },
+        {
+          "lat": 9.571085,
+          "lon": 75.321227,
+          "time_iso": "2026-07-08T10:18:00Z",
+          "sog_kn": 7.77,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 135.58
+        },
+        {
+          "lat": 9.515498,
+          "lon": 75.273733,
+          "time_iso": "2026-07-08T10:33:00Z",
+          "sog_kn": 8.02,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 143.65
+        },
+        {
+          "lat": 9.514257,
+          "lon": 75.272987,
+          "time_iso": "2026-07-08T10:48:00Z",
+          "sog_kn": 7.83,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 143.81
+        },
+        {
+          "lat": 9.429597,
+          "lon": 75.200717,
+          "time_iso": "2026-07-08T11:03:00Z",
+          "sog_kn": 8.29,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 156.09
+        },
+        {
+          "lat": 9.47348,
+          "lon": 75.23817,
+          "time_iso": "2026-07-08T11:18:00Z",
+          "sog_kn": 7.76,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 149.73
+        },
+        {
+          "lat": 9.442142,
+          "lon": 75.211673,
+          "time_iso": "2026-07-08T11:33:00Z",
+          "sog_kn": 7.81,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 154.26
+        },
+        {
+          "lat": 9.409614,
+          "lon": 75.18366,
+          "time_iso": "2026-07-08T11:48:00Z",
+          "sog_kn": 7.86,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 158.99
+        },
+        {
+          "lat": 9.347715,
+          "lon": 75.131374,
+          "time_iso": "2026-07-08T12:03:00Z",
+          "sog_kn": 8.12,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 167.94
+        },
+        {
+          "lat": 9.340296,
+          "lon": 75.124686,
+          "time_iso": "2026-07-08T12:18:00Z",
+          "sog_kn": 7.99,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 169.04
+        },
+        {
+          "lat": 9.316542,
+          "lon": 75.104453,
+          "time_iso": "2026-07-08T12:33:00Z",
+          "sog_kn": 7.98,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 172.49
+        },
+        {
+          "lat": 9.329691,
+          "lon": 75.115595,
+          "time_iso": "2026-07-08T12:48:00Z",
+          "sog_kn": 7.73,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 170.59
+        },
+        {
+          "lat": 9.232482,
+          "lon": 75.032855,
+          "time_iso": "2026-07-08T13:03:00Z",
+          "sog_kn": 8.19,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 184.69
+        },
+        {
+          "lat": 9.224641,
+          "lon": 75.026327,
+          "time_iso": "2026-07-08T13:18:00Z",
+          "sog_kn": 8.08,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 185.81
+        },
+        {
+          "lat": 9.205466,
+          "lon": 75.010254,
+          "time_iso": "2026-07-08T13:33:00Z",
+          "sog_kn": 8.04,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 188.58
+        },
+        {
+          "lat": 9.224248,
+          "lon": 75.025933,
+          "time_iso": "2026-07-08T13:48:00Z",
+          "sog_kn": 7.77,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 185.87
+        },
+        {
+          "lat": 9.130999,
+          "lon": 74.946692,
+          "time_iso": "2026-07-08T14:03:00Z",
+          "sog_kn": 8.17,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 199.39
+        },
+        {
+          "lat": 9.140178,
+          "lon": 74.954568,
+          "time_iso": "2026-07-08T14:18:00Z",
+          "sog_kn": 7.97,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 198.06
+        },
+        {
+          "lat": 9.057862,
+          "lon": 74.884437,
+          "time_iso": "2026-07-08T14:33:00Z",
+          "sog_kn": 8.29,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 210.01
+        },
+        {
+          "lat": 9.072358,
+          "lon": 74.896761,
+          "time_iso": "2026-07-08T14:48:00Z",
+          "sog_kn": 8.07,
+          "cog_deg": 220.0,
+          "distance_to_origin_km": 207.91
+        }
+      ]
+    },
+    {
+      "mmsi": 419001007,
+      "name": "MARITIMA ONE",
+      "ship_type": "Oil Tanker",
+      "closest_distance_km": 5.56,
+      "time_at_closest": "2026-07-08T00:18:00Z",
+      "avg_sog_near_origin": 3.15,
+      "dwell_minutes_near_origin": 270.0,
+      "points_in_time_window": 97,
+      "passes_distance_filter": true,
+      "passes_time_filter": true,
+      "passes_speed_filter": true,
+      "passes_dwell_filter": true,
+      "passes_type_filter": true,
+      "passes_all_default_filters": true,
+      "track": [
+        {
+          "lat": 8.94235,
+          "lon": 75.671596,
+          "time_iso": "2026-07-07T10:48:00Z",
+          "sog_kn": 7.21,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 183.9
+        },
+        {
+          "lat": 9.058634,
+          "lon": 75.703171,
+          "time_iso": "2026-07-07T11:03:00Z",
+          "sog_kn": 6.81,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 170.52
+        },
+        {
+          "lat": 9.032522,
+          "lon": 75.695811,
+          "time_iso": "2026-07-07T11:18:00Z",
+          "sog_kn": 7.06,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 173.53
+        },
+        {
+          "lat": 9.040562,
+          "lon": 75.698162,
+          "time_iso": "2026-07-07T11:33:00Z",
+          "sog_kn": 7.16,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 172.6
+        },
+        {
+          "lat": 9.104868,
+          "lon": 75.715539,
+          "time_iso": "2026-07-07T11:48:00Z",
+          "sog_kn": 6.99,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 165.21
+        },
+        {
+          "lat": 9.07383,
+          "lon": 75.707435,
+          "time_iso": "2026-07-07T12:03:00Z",
+          "sog_kn": 7.27,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 168.77
+        },
+        {
+          "lat": 9.102534,
+          "lon": 75.715253,
+          "time_iso": "2026-07-07T12:18:00Z",
+          "sog_kn": 7.28,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 165.47
+        },
+        {
+          "lat": 9.189035,
+          "lon": 75.738598,
+          "time_iso": "2026-07-07T12:33:00Z",
+          "sog_kn": 6.99,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 155.52
+        },
+        {
+          "lat": 9.249227,
+          "lon": 75.754869,
+          "time_iso": "2026-07-07T12:48:00Z",
+          "sog_kn": 6.82,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 148.6
+        },
+        {
+          "lat": 9.21167,
+          "lon": 75.744709,
+          "time_iso": "2026-07-07T13:03:00Z",
+          "sog_kn": 7.17,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 152.92
+        },
+        {
+          "lat": 9.286691,
+          "lon": 75.76511,
+          "time_iso": "2026-07-07T13:18:00Z",
+          "sog_kn": 6.92,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 144.28
+        },
+        {
+          "lat": 9.29946,
+          "lon": 75.768786,
+          "time_iso": "2026-07-07T13:33:00Z",
+          "sog_kn": 7.0,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 142.81
+        },
+        {
+          "lat": 9.330872,
+          "lon": 75.777219,
+          "time_iso": "2026-07-07T13:48:00Z",
+          "sog_kn": 6.98,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 139.2
+        },
+        {
+          "lat": 9.369055,
+          "lon": 75.787506,
+          "time_iso": "2026-07-07T14:03:00Z",
+          "sog_kn": 6.92,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 134.81
+        },
+        {
+          "lat": 9.411961,
+          "lon": 75.799079,
+          "time_iso": "2026-07-07T14:18:00Z",
+          "sog_kn": 6.83,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 129.88
+        },
+        {
+          "lat": 9.368997,
+          "lon": 75.787414,
+          "time_iso": "2026-07-07T14:33:00Z",
+          "sog_kn": 7.26,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 134.82
+        },
+        {
+          "lat": 9.47368,
+          "lon": 75.815886,
+          "time_iso": "2026-07-07T14:48:00Z",
+          "sog_kn": 6.79,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 122.78
+        },
+        {
+          "lat": 9.436954,
+          "lon": 75.805993,
+          "time_iso": "2026-07-07T15:03:00Z",
+          "sog_kn": 7.2,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 127.0
+        },
+        {
+          "lat": 9.479459,
+          "lon": 75.817642,
+          "time_iso": "2026-07-07T15:18:00Z",
+          "sog_kn": 7.11,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 122.11
+        },
+        {
+          "lat": 9.483066,
+          "lon": 75.818449,
+          "time_iso": "2026-07-07T15:33:00Z",
+          "sog_kn": 7.28,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 121.7
+        },
+        {
+          "lat": 9.581815,
+          "lon": 75.845151,
+          "time_iso": "2026-07-07T15:48:00Z",
+          "sog_kn": 6.8,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 110.35
+        },
+        {
+          "lat": 9.562404,
+          "lon": 75.840206,
+          "time_iso": "2026-07-07T16:03:00Z",
+          "sog_kn": 7.13,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 112.57
+        },
+        {
+          "lat": 9.605796,
+          "lon": 75.851643,
+          "time_iso": "2026-07-07T16:18:00Z",
+          "sog_kn": 7.03,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 107.59
+        },
+        {
+          "lat": 9.674653,
+          "lon": 75.870696,
+          "time_iso": "2026-07-07T16:33:00Z",
+          "sog_kn": 6.72,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 99.67
+        },
+        {
+          "lat": 9.652647,
+          "lon": 75.864509,
+          "time_iso": "2026-07-07T16:48:00Z",
+          "sog_kn": 7.1,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 102.2
+        },
+        {
+          "lat": 9.667961,
+          "lon": 75.868848,
+          "time_iso": "2026-07-07T17:03:00Z",
+          "sog_kn": 7.21,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 100.44
+        },
+        {
+          "lat": 9.757438,
+          "lon": 75.893011,
+          "time_iso": "2026-07-07T17:18:00Z",
+          "sog_kn": 6.71,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 90.16
+        },
+        {
+          "lat": 9.741865,
+          "lon": 75.888857,
+          "time_iso": "2026-07-07T17:33:00Z",
+          "sog_kn": 7.07,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 91.95
+        },
+        {
+          "lat": 9.779351,
+          "lon": 75.898824,
+          "time_iso": "2026-07-07T17:48:00Z",
+          "sog_kn": 6.99,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 87.64
+        },
+        {
+          "lat": 9.802828,
+          "lon": 75.905468,
+          "time_iso": "2026-07-07T18:03:00Z",
+          "sog_kn": 7.03,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 84.94
+        },
+        {
+          "lat": 9.848893,
+          "lon": 75.917681,
+          "time_iso": "2026-07-07T18:18:00Z",
+          "sog_kn": 6.86,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 79.66
+        },
+        {
+          "lat": 9.843897,
+          "lon": 75.916672,
+          "time_iso": "2026-07-07T18:33:00Z",
+          "sog_kn": 7.19,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 80.22
+        },
+        {
+          "lat": 9.866998,
+          "lon": 75.92273,
+          "time_iso": "2026-07-07T18:48:00Z",
+          "sog_kn": 7.25,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 77.58
+        },
+        {
+          "lat": 9.938447,
+          "lon": 75.942318,
+          "time_iso": "2026-07-07T19:03:00Z",
+          "sog_kn": 6.79,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 69.37
+        },
+        {
+          "lat": 9.930404,
+          "lon": 75.940071,
+          "time_iso": "2026-07-07T19:18:00Z",
+          "sog_kn": 7.19,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 70.3
+        },
+        {
+          "lat": 9.981812,
+          "lon": 75.9541,
+          "time_iso": "2026-07-07T19:33:00Z",
+          "sog_kn": 6.92,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 64.4
+        },
+        {
+          "lat": 9.979798,
+          "lon": 75.95362,
+          "time_iso": "2026-07-07T19:48:00Z",
+          "sog_kn": 7.29,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 64.63
+        },
+        {
+          "lat": 10.015855,
+          "lon": 75.963446,
+          "time_iso": "2026-07-07T20:03:00Z",
+          "sog_kn": 7.21,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 60.49
+        },
+        {
+          "lat": 10.048478,
+          "lon": 75.972184,
+          "time_iso": "2026-07-07T20:18:00Z",
+          "sog_kn": 7.16,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 56.76
+        },
+        {
+          "lat": 10.085752,
+          "lon": 75.982174,
+          "time_iso": "2026-07-07T20:33:00Z",
+          "sog_kn": 7.03,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 52.49
+        },
+        {
+          "lat": 10.128959,
+          "lon": 75.994043,
+          "time_iso": "2026-07-07T20:48:00Z",
+          "sog_kn": 6.8,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 47.55
+        },
+        {
+          "lat": 10.13416,
+          "lon": 75.995619,
+          "time_iso": "2026-07-07T21:03:00Z",
+          "sog_kn": 7.17,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 46.95
+        },
+        {
+          "lat": 10.186294,
+          "lon": 76.009471,
+          "time_iso": "2026-07-07T21:18:00Z",
+          "sog_kn": 6.76,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 41.0
+        },
+        {
+          "lat": 10.20998,
+          "lon": 76.016212,
+          "time_iso": "2026-07-07T21:33:00Z",
+          "sog_kn": 6.83,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 38.3
+        },
+        {
+          "lat": 10.412983,
+          "lon": 76.071167,
+          "time_iso": "2026-07-07T21:48:00Z",
+          "sog_kn": 3.19,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 15.55
+        },
+        {
+          "lat": 10.414188,
+          "lon": 76.071597,
+          "time_iso": "2026-07-07T22:03:00Z",
+          "sog_kn": 3.46,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 15.42
+        },
+        {
+          "lat": 10.44966,
+          "lon": 76.081138,
+          "time_iso": "2026-07-07T22:18:00Z",
+          "sog_kn": 2.92,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 11.7
+        },
+        {
+          "lat": 10.441094,
+          "lon": 76.079022,
+          "time_iso": "2026-07-07T22:33:00Z",
+          "sog_kn": 3.48,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 12.58
+        },
+        {
+          "lat": 10.459816,
+          "lon": 76.083862,
+          "time_iso": "2026-07-07T22:48:00Z",
+          "sog_kn": 3.33,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 10.68
+        },
+        {
+          "lat": 10.482445,
+          "lon": 76.090335,
+          "time_iso": "2026-07-07T23:03:00Z",
+          "sog_kn": 3.0,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 8.57
+        },
+        {
+          "lat": 10.491486,
+          "lon": 76.09252,
+          "time_iso": "2026-07-07T23:18:00Z",
+          "sog_kn": 3.13,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 7.79
+        },
+        {
+          "lat": 10.499369,
+          "lon": 76.095008,
+          "time_iso": "2026-07-07T23:33:00Z",
+          "sog_kn": 3.35,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 7.2
+        },
+        {
+          "lat": 10.513312,
+          "lon": 76.098754,
+          "time_iso": "2026-07-07T23:48:00Z",
+          "sog_kn": 3.33,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 6.3
+        },
+        {
+          "lat": 10.531563,
+          "lon": 76.103669,
+          "time_iso": "2026-07-08T00:03:00Z",
+          "sog_kn": 2.93,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 5.62
+        },
+        {
+          "lat": 10.54211,
+          "lon": 76.106547,
+          "time_iso": "2026-07-08T00:18:00Z",
+          "sog_kn": 3.1,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 5.56
+        },
+        {
+          "lat": 10.554469,
+          "lon": 76.109536,
+          "time_iso": "2026-07-08T00:33:00Z",
+          "sog_kn": 3.14,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 5.78
+        },
+        {
+          "lat": 10.567185,
+          "lon": 76.113154,
+          "time_iso": "2026-07-08T00:48:00Z",
+          "sog_kn": 3.06,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 6.39
+        },
+        {
+          "lat": 10.579695,
+          "lon": 76.116537,
+          "time_iso": "2026-07-08T01:03:00Z",
+          "sog_kn": 3.11,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 7.22
+        },
+        {
+          "lat": 10.593676,
+          "lon": 76.12023,
+          "time_iso": "2026-07-08T01:18:00Z",
+          "sog_kn": 3.31,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 8.34
+        },
+        {
+          "lat": 10.6066,
+          "lon": 76.12398,
+          "time_iso": "2026-07-08T01:33:00Z",
+          "sog_kn": 3.27,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 9.53
+        },
+        {
+          "lat": 10.614325,
+          "lon": 76.126149,
+          "time_iso": "2026-07-08T01:48:00Z",
+          "sog_kn": 2.95,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 10.27
+        },
+        {
+          "lat": 10.63309,
+          "lon": 76.131029,
+          "time_iso": "2026-07-08T02:03:00Z",
+          "sog_kn": 3.28,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 12.13
+        },
+        {
+          "lat": 10.638358,
+          "lon": 76.132538,
+          "time_iso": "2026-07-08T02:18:00Z",
+          "sog_kn": 2.96,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 12.68
+        },
+        {
+          "lat": 10.654674,
+          "lon": 76.136875,
+          "time_iso": "2026-07-08T02:33:00Z",
+          "sog_kn": 3.12,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 14.38
+        },
+        {
+          "lat": 10.663952,
+          "lon": 76.139547,
+          "time_iso": "2026-07-08T02:48:00Z",
+          "sog_kn": 3.01,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 15.38
+        },
+        {
+          "lat": 10.680701,
+          "lon": 76.144066,
+          "time_iso": "2026-07-08T03:03:00Z",
+          "sog_kn": 3.14,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 17.2
+        },
+        {
+          "lat": 10.68598,
+          "lon": 76.145427,
+          "time_iso": "2026-07-08T03:18:00Z",
+          "sog_kn": 2.96,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 17.77
+        },
+        {
+          "lat": 10.705513,
+          "lon": 76.150797,
+          "time_iso": "2026-07-08T03:33:00Z",
+          "sog_kn": 3.13,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 19.92
+        },
+        {
+          "lat": 10.70965,
+          "lon": 76.152062,
+          "time_iso": "2026-07-08T03:48:00Z",
+          "sog_kn": 2.95,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 20.39
+        },
+        {
+          "lat": 10.948241,
+          "lon": 76.21667,
+          "time_iso": "2026-07-08T04:03:00Z",
+          "sog_kn": 7.29,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 47.39
+        },
+        {
+          "lat": 10.957196,
+          "lon": 76.219204,
+          "time_iso": "2026-07-08T04:18:00Z",
+          "sog_kn": 6.93,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 48.42
+        },
+        {
+          "lat": 10.989119,
+          "lon": 76.227945,
+          "time_iso": "2026-07-08T04:33:00Z",
+          "sog_kn": 7.0,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 52.07
+        },
+        {
+          "lat": 11.014659,
+          "lon": 76.2347,
+          "time_iso": "2026-07-08T04:48:00Z",
+          "sog_kn": 6.95,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 54.99
+        },
+        {
+          "lat": 11.03559,
+          "lon": 76.240635,
+          "time_iso": "2026-07-08T05:03:00Z",
+          "sog_kn": 6.85,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 57.39
+        },
+        {
+          "lat": 11.078009,
+          "lon": 76.251966,
+          "time_iso": "2026-07-08T05:18:00Z",
+          "sog_kn": 7.06,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 62.25
+        },
+        {
+          "lat": 11.093442,
+          "lon": 76.25617,
+          "time_iso": "2026-07-08T05:33:00Z",
+          "sog_kn": 6.88,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 64.02
+        },
+        {
+          "lat": 11.13632,
+          "lon": 76.267843,
+          "time_iso": "2026-07-08T05:48:00Z",
+          "sog_kn": 7.07,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 68.93
+        },
+        {
+          "lat": 11.150311,
+          "lon": 76.271857,
+          "time_iso": "2026-07-08T06:03:00Z",
+          "sog_kn": 6.9,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 70.55
+        },
+        {
+          "lat": 11.211781,
+          "lon": 76.288427,
+          "time_iso": "2026-07-08T06:18:00Z",
+          "sog_kn": 7.28,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 77.6
+        },
+        {
+          "lat": 11.239626,
+          "lon": 76.295988,
+          "time_iso": "2026-07-08T06:33:00Z",
+          "sog_kn": 7.27,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 80.79
+        },
+        {
+          "lat": 11.270185,
+          "lon": 76.304204,
+          "time_iso": "2026-07-08T06:48:00Z",
+          "sog_kn": 7.28,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 84.3
+        },
+        {
+          "lat": 11.283011,
+          "lon": 76.307856,
+          "time_iso": "2026-07-08T07:03:00Z",
+          "sog_kn": 7.12,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 85.78
+        },
+        {
+          "lat": 11.283196,
+          "lon": 76.308016,
+          "time_iso": "2026-07-08T07:18:00Z",
+          "sog_kn": 6.85,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 85.8
+        },
+        {
+          "lat": 11.320452,
+          "lon": 76.318072,
+          "time_iso": "2026-07-08T07:33:00Z",
+          "sog_kn": 6.94,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 90.08
+        },
+        {
+          "lat": 11.36201,
+          "lon": 76.329371,
+          "time_iso": "2026-07-08T07:48:00Z",
+          "sog_kn": 7.06,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 94.85
+        },
+        {
+          "lat": 11.387616,
+          "lon": 76.3362,
+          "time_iso": "2026-07-08T08:03:00Z",
+          "sog_kn": 7.03,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 97.79
+        },
+        {
+          "lat": 11.427167,
+          "lon": 76.34694,
+          "time_iso": "2026-07-08T08:18:00Z",
+          "sog_kn": 7.13,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 102.33
+        },
+        {
+          "lat": 11.45483,
+          "lon": 76.354622,
+          "time_iso": "2026-07-08T08:33:00Z",
+          "sog_kn": 7.12,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 105.52
+        },
+        {
+          "lat": 11.461417,
+          "lon": 76.356382,
+          "time_iso": "2026-07-08T08:48:00Z",
+          "sog_kn": 6.95,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 106.27
+        },
+        {
+          "lat": 11.476116,
+          "lon": 76.360394,
+          "time_iso": "2026-07-08T09:03:00Z",
+          "sog_kn": 6.85,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 107.96
+        },
+        {
+          "lat": 11.54834,
+          "lon": 76.380204,
+          "time_iso": "2026-07-08T09:18:00Z",
+          "sog_kn": 7.17,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 116.27
+        },
+        {
+          "lat": 11.551154,
+          "lon": 76.38074,
+          "time_iso": "2026-07-08T09:33:00Z",
+          "sog_kn": 6.99,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 116.58
+        },
+        {
+          "lat": 11.617739,
+          "lon": 76.398825,
+          "time_iso": "2026-07-08T09:48:00Z",
+          "sog_kn": 7.25,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 124.24
+        },
+        {
+          "lat": 11.635206,
+          "lon": 76.403751,
+          "time_iso": "2026-07-08T10:03:00Z",
+          "sog_kn": 7.17,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 126.25
+        },
+        {
+          "lat": 11.640901,
+          "lon": 76.404945,
+          "time_iso": "2026-07-08T10:18:00Z",
+          "sog_kn": 7.02,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 126.89
+        },
+        {
+          "lat": 11.69102,
+          "lon": 76.418677,
+          "time_iso": "2026-07-08T10:33:00Z",
+          "sog_kn": 7.16,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 132.66
+        },
+        {
+          "lat": 11.707816,
+          "lon": 76.423561,
+          "time_iso": "2026-07-08T10:48:00Z",
+          "sog_kn": 7.09,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 134.6
+        },
+        {
+          "lat": 11.7395,
+          "lon": 76.432044,
+          "time_iso": "2026-07-08T11:03:00Z",
+          "sog_kn": 7.11,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 138.24
+        },
+        {
+          "lat": 11.797343,
+          "lon": 76.44747,
+          "time_iso": "2026-07-08T11:18:00Z",
+          "sog_kn": 7.28,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 144.88
+        },
+        {
+          "lat": 11.753266,
+          "lon": 76.435681,
+          "time_iso": "2026-07-08T11:33:00Z",
+          "sog_kn": 6.86,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 139.82
+        },
+        {
+          "lat": 11.815066,
+          "lon": 76.452447,
+          "time_iso": "2026-07-08T11:48:00Z",
+          "sog_kn": 7.05,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 146.92
+        },
+        {
+          "lat": 11.822932,
+          "lon": 76.454621,
+          "time_iso": "2026-07-08T12:03:00Z",
+          "sog_kn": 6.93,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 147.83
+        },
+        {
+          "lat": 11.862812,
+          "lon": 76.465284,
+          "time_iso": "2026-07-08T12:18:00Z",
+          "sog_kn": 7.0,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 152.41
+        },
+        {
+          "lat": 11.846081,
+          "lon": 76.461103,
+          "time_iso": "2026-07-08T12:33:00Z",
+          "sog_kn": 6.76,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 150.5
+        },
+        {
+          "lat": 11.874841,
+          "lon": 76.468537,
+          "time_iso": "2026-07-08T12:48:00Z",
+          "sog_kn": 6.77,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 153.79
+        },
+        {
+          "lat": 11.925059,
+          "lon": 76.482269,
+          "time_iso": "2026-07-08T13:03:00Z",
+          "sog_kn": 6.89,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 159.57
+        },
+        {
+          "lat": 11.973433,
+          "lon": 76.49551,
+          "time_iso": "2026-07-08T13:18:00Z",
+          "sog_kn": 6.99,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 165.13
+        },
+        {
+          "lat": 12.027832,
+          "lon": 76.510262,
+          "time_iso": "2026-07-08T13:33:00Z",
+          "sog_kn": 7.12,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 171.39
+        },
+        {
+          "lat": 12.070637,
+          "lon": 76.522141,
+          "time_iso": "2026-07-08T13:48:00Z",
+          "sog_kn": 7.19,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 176.32
+        },
+        {
+          "lat": 12.079022,
+          "lon": 76.524086,
+          "time_iso": "2026-07-08T14:03:00Z",
+          "sog_kn": 7.09,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 177.27
+        },
+        {
+          "lat": 12.151177,
+          "lon": 76.543754,
+          "time_iso": "2026-07-08T14:18:00Z",
+          "sog_kn": 7.29,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 185.57
+        },
+        {
+          "lat": 12.071244,
+          "lon": 76.522302,
+          "time_iso": "2026-07-08T14:33:00Z",
+          "sog_kn": 6.8,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 176.39
+        },
+        {
+          "lat": 12.10823,
+          "lon": 76.532064,
+          "time_iso": "2026-07-08T14:48:00Z",
+          "sog_kn": 6.84,
+          "cog_deg": 15.0,
+          "distance_to_origin_km": 180.63
+        }
+      ]
+    }
+  ]
+}
