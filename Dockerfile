@@ -1,9 +1,17 @@
-FROM nvcr.io/nvidia/pytorch:22.11-py3
+FROM python:3.10-slim
 
-RUN rm -rf /workspace/*
-WORKDIR /workspace/unet
+WORKDIR /app
 
-ADD requirements.txt .
-RUN pip install --no-cache-dir --upgrade --pre pip
+# Install lightweight dependencies
+COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
-ADD . .
+
+# Copy application files
+COPY . .
+
+# Default port for Render
+ENV PORT=10000
+EXPOSE 10000
+
+# Start the dashboard
+CMD ["python", "app.py"]
