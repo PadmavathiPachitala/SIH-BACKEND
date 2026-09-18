@@ -1,4 +1,4 @@
-# SIH Oil Spill Detection System: SAR Image Classification & Segmentation
+# SIH : Marine Oil Spill Detection & Vessel Identification System: SAR Image Classification & Segmentation
 
 ## 🚀 CSIRO Sentinel-1 SAR Oil / No-Oil Binary Classifier
 For image classification on the CSIRO Sentinel-1 SAR dataset (grayscale ~400x400 patches):
